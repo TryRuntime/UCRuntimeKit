@@ -1,0 +1,6 @@
+framework module Pods_UCRuntimeKit_Example {
+  umbrella header "Pods-UCRuntimeKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

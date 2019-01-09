@@ -1,6 +1,6 @@
 # UCRuntimeKit
 
-[![CI Status](https://img.shields.io/travis/Link/UCRuntimeKit.svg?style=flat)](https://travis-ci.org/Link/UCRuntimeKit)
+[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit)
 [![Version](https://img.shields.io/cocoapods/v/UCRuntimeKit.svg?style=flat)](https://cocoapods.org/pods/UCRuntimeKit)
 [![License](https://img.shields.io/cocoapods/l/UCRuntimeKit.svg?style=flat)](https://cocoapods.org/pods/UCRuntimeKit)
 [![Platform](https://img.shields.io/cocoapods/p/UCRuntimeKit.svg?style=flat)](https://cocoapods.org/pods/UCRuntimeKit)

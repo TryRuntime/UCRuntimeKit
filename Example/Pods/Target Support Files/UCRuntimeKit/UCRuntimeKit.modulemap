@@ -1,0 +1,6 @@
+framework module UCRuntimeKit {
+  umbrella header "UCRuntimeKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

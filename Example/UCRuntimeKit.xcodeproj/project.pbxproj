@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B43352521E7998700DED162 /* UCMeditorRuntimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B43352421E7998700DED162 /* UCMeditorRuntimeTest.m */; };
+		3B43352821E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B43352721E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +42,9 @@
 		0DC49AB4DEF831A459B934DC /* Pods_UCRuntimeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRuntimeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		352D12C53D92C8CCBDA818FE /* Pods-UCRuntimeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRuntimeKit_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3AE826BD02A32B2B713F0A6D /* Pods-UCRuntimeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRuntimeKit_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		3B43352421E7998700DED162 /* UCMeditorRuntimeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMeditorRuntimeTest.m; sourceTree = "<group>"; };
+		3B43352621E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCMeditorRuntimeMethodTestFile.h; sourceTree = "<group>"; };
+		3B43352721E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMeditorRuntimeMethodTestFile.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCRuntimeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCRuntimeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -172,6 +177,9 @@
 			children = (
 				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				3B43352421E7998700DED162 /* UCMeditorRuntimeTest.m */,
+				3B43352621E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.h */,
+				3B43352721E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -377,7 +385,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B43352821E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m in Sources */,
 				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				3B43352521E7998700DED162 /* UCMeditorRuntimeTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

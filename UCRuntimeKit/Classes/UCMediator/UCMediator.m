@@ -210,13 +210,16 @@
     const char* retType = [methodSig methodReturnType];
     
     NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
-    for (int i = 0; i < paramsArray.count; i ++) {
-        id param = paramsArray[i];
-        [invocation setArgument:&param atIndex:i + 2];
+    
+    NSString *selStr = NSStringFromSelector(action);
+    if ([selStr containsString:@":"]) {
+        for (int i = 0; i < paramsArray.count; i ++) {
+            id param = paramsArray[i];
+            [invocation setArgument:&param atIndex:i + 2];
+        }
     }
     [invocation setSelector:action];
     [invocation setTarget:target];
-    [invocation invoke];
     
     if (strcmp(retType, @encode(void)) == 0) {
         [invocation invoke];

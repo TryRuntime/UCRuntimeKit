@@ -84,6 +84,13 @@
                                         error:(NSError * __autoreleasing *)error {
     
     //这里做url拦截,过滤的操作,根据返回的布尔值判断是否调用
+    if (self.urlFilterDelegate && [self.urlFilterDelegate respondsToSelector:@selector(isCanOpenURL:)]) {
+        if (![self.urlFilterDelegate isCanOpenURL:urlStr]) {
+            UCLog(@"该URL,业务层不允许访问APP内部");
+            return nil;
+        }
+    }
+    
     return [self nativePerformActionWithUrl:urlStr arg:nil completion:completion failure:nil error:error];
 }
 

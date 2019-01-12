@@ -39,7 +39,7 @@
                                               params:nil
                                           completion:nil
                                              failure:nil
-                                               error:nil];
+                                               error:&error];
     XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
 }
 
@@ -246,8 +246,8 @@
 - (void)testReturnNSString {
     NSError *error;
     NSString *a = [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile"
-                                                     action:@"returnStringNoArgumentMethod"
-                                                     params:nil completion:nil failure:nil error:&error];
+                                                            action:@"returnStringNoArgumentMethod"
+                                                            params:nil completion:nil failure:nil error:&error];
     XCTAssert([a isEqualToString:@"a"], @"返回值异常");
     XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
 }
@@ -255,8 +255,8 @@
 - (void)testReturnID {
     NSError *error;
     id a = [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile"
-                                                            action:@"returnIDNoArgumentMethod"
-                                                            params:nil completion:nil failure:nil error:&error];
+                                                     action:@"returnIDNoArgumentMethod"
+                                                     params:nil completion:nil failure:nil error:&error];
     NSString *b = (NSString *)a;
     XCTAssert([b isEqualToString:@"返回值id"], @"返回值异常");
     XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);

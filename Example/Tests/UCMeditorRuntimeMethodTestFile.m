@@ -13,8 +13,13 @@
 
 //参数测试
 - (void)noResultNoArgumentMethod {}
-- (void)noResultOneArguMethod:(UCMediatorArgument *)argu {}
-- (void)noResultTwoArguMethod:(id)argu1 argu2:(id)argu2{}
+- (void)noResultOneArguMethod:(UCMediatorArgument *)argu {
+    NSLog(@"🍎🍎🍎🍎🍎🍎🍎🍎%@",argu.arguDict);
+}
+- (void)noResultTwoArguMethod:(id)argu1 argu2:(id)argu2{
+    UCMediatorArgument *arg = argu1;
+    NSLog(@"🍎🍎🍎🍎🍎🍎🍎🍎🍎%@",arg.arguDict);
+}
 
 //返回值测试
 - (int)returnIntNoArgumentMethod {return 10;}

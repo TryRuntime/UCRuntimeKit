@@ -128,8 +128,6 @@ NSString* const kUCMediatorErrorKey       = @"__UCMediatorErrorKey";
     }
     if (attachParams && [attachParams isKindOfClass:[NSDictionary class]]) {
         [resultParams addEntriesFromDictionary:attachParams];
-    }else{
-        NSLog(@"参数拼接异常");
     }
     
     return resultParams;

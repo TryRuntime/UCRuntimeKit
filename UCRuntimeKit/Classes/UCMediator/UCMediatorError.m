@@ -14,7 +14,7 @@ NSUInteger const kUCMediatorErrorParmsCode = 7800;
 NSString *const kUCMediatorErrorParmsInfo = @"参数错误";
 
 NSUInteger const kUCMediatorErrorURLParameterAnalysisCode = 7801;
-NSString *const kUCMediatorErrorURLParameterAnalysisInfo = @"参数错误";
+NSString *const kUCMediatorErrorURLParameterAnalysisInfo = @"URL参数错误";
 
 NSUInteger const kUCMediatorErrorUndefindTargetCode = 7802;
 NSString *const kUCMediatorErrorUndefindTargetInfo = @"组件没找到";
@@ -33,3 +33,6 @@ NSString *const kUCMediatorErrorAppdelegateRuntimeInvokeInfo = @"Runtime调用�
 
 NSUInteger const kUCMediatorErrorUndefindReturnTypeCode = 7807;
 NSString *const kUCMediatorErrorUndefindReturnTypeInfo = @"返回值类型无法匹配";
+
+NSUInteger const kUCMediatorErrorURLNotAllowedCode = 7808;
+NSString *const kUCMediatorErrorURLNotAllowedInfo = @"该URL无权限访问app内部";

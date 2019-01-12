@@ -92,6 +92,9 @@
     if (self.urlFilterDelegate && [self.urlFilterDelegate respondsToSelector:@selector(isCanOpenURL:)]) {
         if (![self.urlFilterDelegate isCanOpenURL:urlStr]) {
             UCLog(@"该URL,业务层不允许访问APP内部");
+            if (error != NULL) {
+                *error = UCMediatorErrorWithURLNotAllowed();
+            }
             return nil;
         }
     }
@@ -105,13 +108,23 @@
                                   failure:(nullable void (^)(NSError *error))failureCallBack
                                     error:(NSError * __autoreleasing *)error {
     
-    if (![arg isKindOfClass:[NSDictionary class]]) {
+    if (arg && ![arg isKindOfClass:[NSDictionary class]]) {
         UCLog(@"参数类型错误,只能穿入字典!请仔细检查.参数:%@, 参数类型:%@", arg, NSStringFromClass([arg class]));
-        *error = UCMediatorErrorWithParms();
+        if (error != NULL) {
+            *error = UCMediatorErrorWithParms();
+        }
         return nil;
     }
     
     NSMutableDictionary *afterParserMDict = [self.mediatorParser extractParametersFromURL:urlStr];
+    
+    if ([afterParserMDict[kUCMediatorErrorKey] isEqual: @(YES)]) {
+        UCLog(@"url参数解析错误, url:%@",urlStr);
+        if (error != NULL) {
+            *error = UCMediatorErrorWithURLParameterAnalysis();
+        }
+        return nil;
+    }
     
 #pragma clang diagnostic push
 #pragma clang diagnostic ignored "-Wunused-variable"
@@ -132,14 +145,7 @@
     
     //发消息
     Class classObj = NSClassFromString(moduleName);
-    NSString *finalAction = [NSString stringWithFormat:@"%@_%@",moduleName,action];
-    SEL selObj = NSSelectorFromString(finalAction);
-    
-    if (afterParserMDict[kUCMediatorErrorKey]) {
-        UCLog(@"url参数解析错误, url:%@",urlStr);
-        *error = UCMediatorErrorWithURLParameterAnalysis();
-        return nil;
-    }
+    SEL selObj = NSSelectorFromString(action);
     
     if (checkTargetAndAction(classObj, selObj, error)) {
         //正常调用
@@ -183,7 +189,9 @@
     
     if (![actionName containsString:@"application"]) {
         UCLog(@"检查调用action,本方法仅用来派发appdelegate的各个方法");
-        *error = UCMediatorErrorWithAppdelegateRuntimeInvoke();
+        if (error != NULL) {
+            *error = UCMediatorErrorWithAppdelegateRuntimeInvoke();
+        }
         return NO;
     }
     
@@ -312,6 +320,8 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
     
     //参数处理
     NSUInteger paramsCount = [selStr componentsSeparatedByString:@":"].count - 1;
+    if (!paramsArray) {paramsCount = 0;}
+    
     if (paramsCount > 0 && paramsCount >= paramsArray.count) {
         for (int i = 0; i < paramsArray.count; i ++) {
             id param = paramsArray[i];
@@ -323,6 +333,16 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
             *error = UCMediatorErrorWithRuntimeParams();
         }
         return nil;
+    } else if (paramsCount == 0 &&
+               [paramsArray.firstObject isKindOfClass:[UCMediatorArgument class]]) {
+        UCMediatorArgument *argu = paramsArray.firstObject;
+        if (argu.arguDict != nil) {
+            UCLog(@"runtime参数数量与SEL所需数量异常");
+            if (error != NULL) {
+                *error = UCMediatorErrorWithRuntimeParams();
+            }
+            return nil;
+        }
     }
     
     [invocation setSelector:action];
@@ -486,6 +506,12 @@ static inline NSError * UCMediatorErrorWithUndefindReturnType() {
     return [[NSError alloc] initWithDomain:kUCMediatorErrorDomain
                                       code:kUCMediatorErrorUndefindReturnTypeCode
                                   userInfo:@{kUCMediatorErrorInfoKey: kUCMediatorErrorUndefindReturnTypeInfo}];
+}
+
+static inline NSError * UCMediatorErrorWithURLNotAllowed() {
+    return [[NSError alloc] initWithDomain:kUCMediatorErrorDomain
+                                      code:kUCMediatorErrorURLNotAllowedCode
+                                  userInfo:@{kUCMediatorErrorInfoKey: kUCMediatorErrorURLNotAllowedInfo}];
 }
 @end
 

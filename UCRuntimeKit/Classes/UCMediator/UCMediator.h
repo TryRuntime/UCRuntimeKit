@@ -9,14 +9,14 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol UCMediatorUrlFilter <NSObject>
+@protocol UCMediatorUrlFilterProtocol <NSObject>
 @required
 - (BOOL)isCanOpenURL:(nonnull NSString *)urlStr;
 @end
 
 @interface UCMediator : NSObject
 
-@property(weak, nonatomic) id<UCMediatorUrlFilter> urlFilterDelegate;
+@property(weak, nonatomic) id<UCMediatorUrlFilterProtocol> urlFilterDelegate;
 + (nonnull instancetype)sharedInstance;
 
 /**

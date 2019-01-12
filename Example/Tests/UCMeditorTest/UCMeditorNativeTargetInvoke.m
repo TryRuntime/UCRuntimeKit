@@ -8,7 +8,6 @@
 
 #import <XCTest/XCTest.h>
 #import <UCRuntimeKit/UCMediator.h>
-#import "UCMeditorRuntimeMethodTestFile.h"
 
 @interface UCMeditorNativeTargetInvoke : XCTestCase
 

@@ -322,6 +322,14 @@
     [invocation setSelector:action];
     [invocation setTarget:target];
     
+    //如果是对象则直接处理
+    if (strcmp(retType, @encode(id)) == 0) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        return [target performSelector:action withObject:paramsArray.firstObject];
+#pragma clang diagnostic pop
+    }
+    
     if (strcmp(retType, @encode(void)) == 0) {
         [invocation invoke];
         return nil;
@@ -418,11 +426,11 @@
         return @(result);
     }
     
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-    //这里如果返回值都不满足会来到这里,只会穿参数字典中的第一个参数
-    return [target performSelector:action withObject:paramsArray.firstObject];
-#pragma clang diagnostic pop
+    UCLog(@"方法无法被调用,请检查返回值的基本数据类型,或者自行增加返回值类型");
+    if (error != NULL) {
+        *error = UCMediatorErrorWithUndefindReturnType();
+    }
+    return nil;
 }
 
 #pragma mark - set && get
@@ -474,6 +482,12 @@ static inline NSError * UCMediatorErrorWithAppdelegateRuntimeInvoke() {
     return [[NSError alloc] initWithDomain:kUCMediatorErrorDomain
                                       code:kUCMediatorErrorAppdelegateRuntimeInvokeCode
                                   userInfo:@{kUCMediatorErrorInfoKey: kUCMediatorErrorAppdelegateRuntimeInvokeInfo}];
+}
+
+static inline NSError * UCMediatorErrorWithUndefindReturnType() {
+    return [[NSError alloc] initWithDomain:kUCMediatorErrorDomain
+                                      code:kUCMediatorErrorUndefindReturnTypeCode
+                                  userInfo:@{kUCMediatorErrorInfoKey: kUCMediatorErrorUndefindReturnTypeInfo}];
 }
 @end
 

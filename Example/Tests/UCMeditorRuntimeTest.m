@@ -7,8 +7,6 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <UCRuntimeKit/UCMediator.h>
-#import "UCMeditorRuntimeMethodTestFile.h"
 
 @interface UCMeditorRuntimeTest : XCTestCase
 
@@ -31,20 +29,4 @@
     }];
 }
 
-- (void)testNoResultNoArgumentMethod {
-
-    [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile"
-                                              action:@"noResultNoArgumentMethod"
-                                              params:nil
-                                          completion:nil
-                                             failure:nil];
-}
-
-- (void)testNoResultOneArguMethod {
-    [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile"
-                                              action:@"noResultOneArguMethod:"
-                                              params:@{@"key": @"我是参数"}
-                                          completion:nil
-                                             failure:nil];
-}
 @end

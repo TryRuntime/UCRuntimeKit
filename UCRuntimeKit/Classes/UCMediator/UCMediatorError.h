@@ -40,4 +40,8 @@ FOUNDATION_EXPORT NSString *const kUCMediatorErrorRuntimeParamsInfo;
 FOUNDATION_EXPORT NSUInteger const kUCMediatorErrorAppdelegateRuntimeInvokeCode;
 FOUNDATION_EXPORT NSString *const kUCMediatorErrorAppdelegateRuntimeInvokeInfo;
 
+//无法匹配返回值类型
+FOUNDATION_EXPORT NSUInteger const kUCMediatorErrorUndefindReturnTypeCode;
+FOUNDATION_EXPORT NSString *const kUCMediatorErrorUndefindReturnTypeInfo;
+
 NS_ASSUME_NONNULL_END

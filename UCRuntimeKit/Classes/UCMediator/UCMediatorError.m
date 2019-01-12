@@ -30,3 +30,6 @@ NSString *const kUCMediatorErrorRuntimeParamsInfo = @"runtime参数传入数量�
 
 NSUInteger const kUCMediatorErrorAppdelegateRuntimeInvokeCode = 7806;
 NSString *const kUCMediatorErrorAppdelegateRuntimeInvokeInfo = @"Runtime调用的不是appdelegate方法";
+
+NSUInteger const kUCMediatorErrorUndefindReturnTypeCode = 7807;
+NSString *const kUCMediatorErrorUndefindReturnTypeInfo = @"返回值类型无法匹配";

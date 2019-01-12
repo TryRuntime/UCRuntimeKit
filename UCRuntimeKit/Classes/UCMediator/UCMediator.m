@@ -141,7 +141,7 @@
         return nil;
     }
     
-    if ([self p_checkTargetAndAction:classObj actionName:selObj error:error]) {
+    if (checkTargetAndAction(classObj, selObj, error)) {
         //正常调用
         return [self p_safePerformAction:selObj target:[classObj new] paramsArray:@[argObj] error:error];
     } else {
@@ -160,7 +160,7 @@
     Class classObj = NSClassFromString(targetName);
     SEL actionObj = NSSelectorFromString(actionName);
     
-    if ([self p_checkTargetAndAction:classObj actionName:actionObj error:error]) {
+    if (checkTargetAndAction(classObj, actionObj, error)) {
         //正常调用
         
         //参数处理
@@ -189,7 +189,7 @@
     
     Class classObj = NSClassFromString(targetName);
     SEL actionObj = NSSelectorFromString(actionName);
-    if (![self p_checkTargetAndAction:classObj actionName:actionObj error:nil]) {
+    if (!checkTargetAndAction(classObj, actionObj, error)) {
         return NO;
     }
     
@@ -214,7 +214,7 @@
     
     Class classObj = [targetObj class];
     SEL actionObj = NSSelectorFromString(actionName);
-    if (![self p_checkTargetAndAction:classObj actionName:actionObj error:nil]) {
+    if (!checkTargetAndAction(classObj, actionObj, error)) {
         return NO;
     }
     
@@ -225,8 +225,7 @@
 }
 #pragma mark - private
 
-- (BOOL)p_checkTargetAndAction:(nonnull Class)target actionName:(nonnull SEL)action error:(NSError **)error {
-    
+static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **error) {
     NSString *errorStr;
     if (!target) {
         errorStr = [NSString stringWithFormat:@"*%@组件不存在, 请检查调用", target];
@@ -300,8 +299,15 @@
     }
     const char* retType = [methodSig methodReturnType];
     
-    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
+    //如果是对象则直接处理
+    if (strcmp(retType, @encode(id)) == 0) {
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
+        return [target performSelector:action withObject:paramsArray.firstObject];
+#pragma clang diagnostic pop
+    }
     
+    NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
     NSString *selStr = NSStringFromSelector(action);
     
     //参数处理
@@ -321,14 +327,6 @@
     
     [invocation setSelector:action];
     [invocation setTarget:target];
-    
-    //如果是对象则直接处理
-    if (strcmp(retType, @encode(id)) == 0) {
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Warc-performSelector-leaks"
-        return [target performSelector:action withObject:paramsArray.firstObject];
-#pragma clang diagnostic pop
-    }
     
     if (strcmp(retType, @encode(void)) == 0) {
         [invocation invoke];

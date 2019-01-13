@@ -44,4 +44,8 @@ FOUNDATION_EXPORT NSString *const kUCMediatorErrorAppdelegateRuntimeInvokeInfo;
 FOUNDATION_EXPORT NSUInteger const kUCMediatorErrorUndefindReturnTypeCode;
 FOUNDATION_EXPORT NSString *const kUCMediatorErrorUndefindReturnTypeInfo;
 
+//该URL无权限访问
+FOUNDATION_EXPORT NSUInteger const kUCMediatorErrorURLNotAllowedCode;
+FOUNDATION_EXPORT NSString *const kUCMediatorErrorURLNotAllowedInfo;
+
 NS_ASSUME_NONNULL_END

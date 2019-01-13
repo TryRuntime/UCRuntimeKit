@@ -47,4 +47,15 @@
 - (NSArray *)returnArrayNoArgumentMethod {return @[@1, @2, @3];}
 - (NSDictionary *)returnDictNoArgumentMethod {return @{@"key1": @"value"};}
 - (NSNumber *)returnNumberNoArgumentMethod {return [NSNumber numberWithInt:1];}
+
+//block
+- (void)noArgumentblockTest:(UCMediatorArgument *)argu {
+    argu.completionCallBack(nil);
+    argu.failureCallBack(nil);
+}
+- (void)haveArgumentblockTest:(UCMediatorArgument *)argu {
+    argu.completionCallBack(@{@"key1": @1});
+    NSError *error = [[NSError alloc] initWithDomain:@"test.UCRuntimeKit" code:7800 userInfo:@{@"key": @"测试一下"}];
+    argu.failureCallBack(error);
+}
 @end

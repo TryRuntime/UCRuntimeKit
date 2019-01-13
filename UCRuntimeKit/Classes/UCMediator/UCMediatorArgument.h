@@ -11,8 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UCMediatorArgument : NSObject
 @property (nullable, copy, nonatomic) NSDictionary *arguDict;
-@property (copy, nonatomic) void (^completionCallBack)(NSDictionary *result) ;
-@property (copy, nonatomic) void (^failureCallBack)(NSError *error);
+@property (copy, nonatomic) void (^completionCallBack)( NSDictionary * _Nullable result) ;
+@property (copy, nonatomic) void (^failureCallBack)(NSError * _Nullable error);
 @end
 
 NS_ASSUME_NONNULL_END

@@ -12,6 +12,8 @@
 		0BCB2EDFEAB71C4973124A735648815B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		131BF32C5465605171B71F0507D4C033 /* UCMediatorParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 9271CB9095ED3878C46213307AD857DA /* UCMediatorParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BC66F9C1B8DBFD86EDECBB3B454FF12 /* UCMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7275A08A7A402623CAC174B7C9DA0208 /* UCMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B98A50621EB68AF00144984 /* UCMediatorAppdelegateArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B98A50421EB68AF00144984 /* UCMediatorAppdelegateArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3B98A50721EB68AF00144984 /* UCMediatorAppdelegateArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A50521EB68AF00144984 /* UCMediatorAppdelegateArguments.m */; };
 		517E1B4758DEFD3C48A33400372E2B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
 		5BEDB88E193A9B6D490324FF27C57FC3 /* Pods-UCRuntimeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3F2D3D4126376EEB56AEBEE0D7E67 /* Pods-UCRuntimeKit_Example-dummy.m */; };
 		5FAD7510C70F52EF2E07A90B95899D13 /* UCRuntimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EB4425DC86ECB4D90750F62DAA1321B7 /* UCRuntimeKit-dummy.m */; };
@@ -49,6 +51,8 @@
 		1BD3F2D3D4126376EEB56AEBEE0D7E67 /* Pods-UCRuntimeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Example-dummy.m"; sourceTree = "<group>"; };
 		2A2C4448FB828282D9EB80F0234DB8C0 /* UCRuntimeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UCRuntimeKit-Info.plist"; sourceTree = "<group>"; };
 		37A8E863D02CC598CF2C03CE641197D8 /* UCMediatorArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediatorArgument.m; sourceTree = "<group>"; };
+		3B98A50421EB68AF00144984 /* UCMediatorAppdelegateArguments.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCMediatorAppdelegateArguments.h; sourceTree = "<group>"; };
+		3B98A50521EB68AF00144984 /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
 		3BF4ED6CD162859FDBCDF199F01DA93F /* UCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediator.m; sourceTree = "<group>"; };
 		3EDAD4F7B935587CFD02CEC2F4005F50 /* Pods-UCRuntimeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4542284C261946756604B0DE813C0328 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
@@ -249,6 +253,8 @@
 				D8092B026A6E7E1FD80BE40577D65917 /* UCMediatorParser.m */,
 				AB0C4D2721E83E9400EE5D8D /* UCMediatorError.h */,
 				AB0C4D2821E83E9400EE5D8D /* UCMediatorError.m */,
+				3B98A50421EB68AF00144984 /* UCMediatorAppdelegateArguments.h */,
+				3B98A50521EB68AF00144984 /* UCMediatorAppdelegateArguments.m */,
 			);
 			name = UCMediator;
 			path = UCRuntimeKit/Classes/UCMediator;
@@ -284,6 +290,7 @@
 				131BF32C5465605171B71F0507D4C033 /* UCMediatorParser.h in Headers */,
 				B468B6B0864F8976D9826E2E0AFCFE3B /* UCOtherMacro.h in Headers */,
 				A45E6FB6CC32B10A71526961604EF652 /* UCRuntimeKit-umbrella.h in Headers */,
+				3B98A50621EB68AF00144984 /* UCMediatorAppdelegateArguments.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +428,7 @@
 			files = (
 				6196D13808EEB2DB2A8C6255ECEE4F71 /* UCMediator.m in Sources */,
 				841D677F44CC9DD9EA4D8AF9CD3769A8 /* UCMediatorArgument.m in Sources */,
+				3B98A50721EB68AF00144984 /* UCMediatorAppdelegateArguments.m in Sources */,
 				AB0C4D2C21E870E400EE5D8D /* UCMediatorError.m in Sources */,
 				041A2DCFE64EE093405AFFF46CC243EE /* UCMediatorParser.m in Sources */,
 				5FAD7510C70F52EF2E07A90B95899D13 /* UCRuntimeKit-dummy.m in Sources */,

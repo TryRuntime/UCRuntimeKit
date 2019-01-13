@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol UCMediatorUrlFilterProtocol <NSObject>
@@ -14,6 +13,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (BOOL)isCanOpenURL:(nonnull NSString *)urlStr;
 @end
 
+@class UCMediatorAppdelegateArguments;
 @interface UCMediator : NSObject
 
 @property(weak, nonatomic) id<UCMediatorUrlFilterProtocol> urlFilterDelegate;
@@ -51,7 +51,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
                       actionName:(nonnull NSString *)actionName
-                          params:(nonnull NSArray<id> *)paramsArray;
+                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
 
 /**
  直接向这个对象动态调用appdelegate的方法
@@ -59,7 +59,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
                             actionName:(nonnull NSString *)actionName
-                                params:(nonnull NSArray<id> *)paramsArray;
+                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
 
 #pragma mark - 异常处理
 /**
@@ -97,7 +97,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
                       actionName:(nonnull NSString *)actionName
-                          params:(nonnull NSArray<id> *)paramsArray
+                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
                            error:(NSError **)error;
 
 /**
@@ -106,7 +106,7 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
                             actionName:(nonnull NSString *)actionName
-                                params:(nonnull NSArray<id> *)paramsArray
+                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
                                  error:(NSError **)error;
 @end
 

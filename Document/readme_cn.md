@@ -7,7 +7,7 @@
 
 | Branch | Build States  |
 | --- | ---  |
-| Master  |[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
+| Master  |[![CI Status](https://travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
 | Develop |[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit) |
 
 ## 支持功能
@@ -25,7 +25,7 @@
 
 ## pull request
 
-如果想一起开发
+如果想一起开发欢迎提pr,前提是rebase到develop并通过单元测试.
 
 ## Author
 

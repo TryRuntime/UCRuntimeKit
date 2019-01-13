@@ -4,29 +4,32 @@
 [![License](https://img.shields.io/cocoapods/l/UCRuntimeKit.svg?style=flat)](https://cocoapods.org/pods/UCRuntimeKit)
 [![Platform](https://img.shields.io/cocoapods/p/UCRuntimeKit.svg?style=flat)](https://cocoapods.org/pods/UCRuntimeKit)
 
-[中文文档](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Document/readme_cn.md)
 
 | Branch | Build States  |
 | --- | ---  |
 | Master  |[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
 | Develop |[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit) |
 
-## Example
+## 支持功能
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+### 1.0
+支持了通过使用字符串调用Objc方法.调用Appdelegate的方法可以实现多参数传递,普通调用只会传递第一个参数,详细情况参照Api注释.
 
-## Requirements
+支持了返回值为`id`, `void`, `int`, `unsigned int`, `short`, `unsigned short`, `long`, `long long`, `float`, `char`, `unsigned char`, `NSInteger`, `BOOL`, `bool`, `CGFloat`, `NSUInteger` 的调用,并通过近百个单元测试case来验证他,中间使用了一些内联函数来优化调用,同时error的抛出也支持各种情况.
 
-## Installation
+### 下一步
 
-UCRuntimeKit is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+* [ ] 支持swift动态调用
+* [ ] 支持swift与Objc基本类型转换
+* [ ] 支持Objc的block与Swift闭包转换
 
-```ruby
-pod 'UCRuntimeKit'
-```
+## pull request
+
+如果想一起开发
 
 ## Author
+
+如果有疑问可以提issure或者通过邮箱联系我
 
 Link, fanyang_32012@outlook.com
 

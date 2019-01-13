@@ -11,6 +11,7 @@
 #import "UCMediatorParser.h"
 #import "UCOtherMacro.h"
 #import "UCMediatorError.h"
+#import "UCMediatorAppdelegateArguments.h"
 
 @interface UCMediator()
 @property (strong, nonatomic) UCMediatorParser *mediatorParser;
@@ -67,9 +68,9 @@
  */
 - (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
                       actionName:(nonnull NSString *)actionName
-                          params:(nonnull NSArray<id> *)paramsArray {
+                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
     
-    return [self performAppDelegateTarget:targetName actionName:actionName params:paramsArray error:nil];
+    return [self performAppDelegateTarget:targetName actionName:actionName params:paramsObj error:nil];
 }
 
 /**
@@ -78,9 +79,9 @@
  */
 - (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
                             actionName:(nonnull NSString *)actionName
-                                params:(nonnull NSArray<id> *)paramsArray {
+                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
     
-    return [self performAppDelegateTargetObject:targetObj actionName:actionName params:paramsArray error:nil];
+    return [self performAppDelegateTargetObject:targetObj actionName:actionName params:paramsObj error:nil];
 }
 
 #pragma mark - 异常处理
@@ -184,7 +185,7 @@
 
 - (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
                       actionName:(nonnull NSString *)actionName
-                          params:(nonnull NSArray<id> *)paramsArray
+                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
                            error:(NSError **)error {
     
     if (![actionName containsString:@"application"]) {
@@ -202,14 +203,14 @@
     }
     
     //正常调用
-    [self p_safePerformAction:actionObj target:[classObj new] paramsArray:paramsArray error:nil];
+    [self p_safePerformAction:actionObj target:[classObj new] paramsArray:paramsObj.getArgumentsArray error:nil];
     
     return YES;
 }
 
 - (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
                             actionName:(nonnull NSString *)actionName
-                                params:(nonnull NSArray<id> *)paramsArray
+                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
                                  error:(NSError **)error {
     
     if (![actionName containsString:@"application"]) {
@@ -227,7 +228,7 @@
     }
     
     //正常调用
-    [self p_safePerformAction:actionObj target:targetObj paramsArray:paramsArray error:nil];
+    [self p_safePerformAction:actionObj target:targetObj paramsArray:paramsObj.getArgumentsArray error:nil];
     
     return YES;
 }
@@ -325,6 +326,9 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
     if (paramsCount > 0 && paramsCount >= paramsArray.count) {
         for (int i = 0; i < paramsArray.count; i ++) {
             id param = paramsArray[i];
+            if (param == [NSNull null]) {
+                param = nil;
+            }
             [invocation setArgument:&param atIndex:i + 2];
         }
     } else if (paramsCount > 0 && paramsCount < paramsArray.count) {

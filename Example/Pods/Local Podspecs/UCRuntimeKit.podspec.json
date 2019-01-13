@@ -1,9 +1,9 @@
 {
   "name": "UCRuntimeKit",
   "version": "0.1.0",
-  "summary": "A short description of UCRuntimeKit.",
+  "summary": "一个runtime架构模板",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Link/UCRuntimeKit",
+  "homepage": "git@github.com:TryRuntime/UCRuntimeKit.git",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Link": "fanyang_32012@outlook.com"
   },
   "source": {
-    "git": "https://github.com/Link/UCRuntimeKit.git",
+    "git": "git@github.com:TryRuntime/UCRuntimeKit.git",
     "tag": "0.1.0"
   },
   "platforms": {

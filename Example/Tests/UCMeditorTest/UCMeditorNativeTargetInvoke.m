@@ -30,6 +30,27 @@
     }];
 }
 
+#pragma mark - 回调
+- (void)testNoArgumentCallBack {
+    NSError *error;
+    [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile" action:@"noArgumentblockTest:" params:nil completion:^(NSDictionary * _Nonnull result) {
+        NSLog(@"调用了成功回调");
+    } failure:^(NSError * _Nonnull error) {
+        NSLog(@"调用了失败回调");
+    } error:&error];
+    XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
+}
+
+- (void)testHaveArgumentCallBack {
+    NSError *error;
+    [[UCMediator sharedInstance] nativePerformTarget:@"UCMeditorRuntimeMethodTestFile" action:@"haveArgumentblockTest:" params:nil completion:^(NSDictionary * _Nonnull result) {
+        NSLog(@"调用了成功回调===%@",result);
+    } failure:^(NSError * _Nonnull error) {
+        NSLog(@"调用了失败回调===%@",error);
+    } error:&error];
+    XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
+}
+
 #pragma mark - 参数
 - (void)testNoResultNoArgumentMethod {
     NSError *error;

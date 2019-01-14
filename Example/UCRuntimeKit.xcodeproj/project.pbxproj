@@ -30,6 +30,18 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AB0C4D3121E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0C4D3021E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m */; };
 		AB0C4D3221E8A25B00EE5D8D /* UCMeditorRuntimeMethodTestFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B43352721E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m */; };
+		AB6A015021EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A014F21EC602400BA0DC5 /* UCSwiftModule1ViewController.swift */; };
+		AB6A015121EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A014F21EC602400BA0DC5 /* UCSwiftModule1ViewController.swift */; };
+		AB6A015321EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015221EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift */; };
+		AB6A015421EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015221EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift */; };
+		AB6A015721EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015621EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift */; };
+		AB6A015921EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015821EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift */; };
+		AB6A015B21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015A21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift */; };
+		AB6A015D21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015C21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift */; };
+		AB6A015F21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */; };
+		AB6A016121EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */; };
+		AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */; };
+		AB6A016521EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +90,18 @@
 		8D57594167B23979A0513010 /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UCRuntimeKit.podspec; path = ../UCRuntimeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95BEF31758D03EB01B55E183 /* Pods-UCRuntimeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRuntimeKit_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AB0C4D3021E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMeditorNativeTargetInvoke.m; sourceTree = "<group>"; };
+		AB6A014D21EC602400BA0DC5 /* UCRuntimeKit_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit_Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB6A014E21EC602400BA0DC5 /* UCRuntimeKit_Tests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit_Tests-Bridging-Header.h"; sourceTree = "<group>"; };
+		AB6A014F21EC602400BA0DC5 /* UCSwiftModule1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModule1ViewController.swift; sourceTree = "<group>"; };
+		AB6A015221EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModuleTarget1.swift; sourceTree = "<group>"; };
+		AB6A015621EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCMediatorSwiftExtensionSwiftTest.swift; sourceTree = "<group>"; };
+		AB6A015821EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCMediatorSwiftExtensionObjcTest.swift; sourceTree = "<group>"; };
+		AB6A015A21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCMediatorSwiftCategorySwiftTest.swift; sourceTree = "<group>"; };
+		AB6A015C21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCMediatorSwiftCategoryObjcTest.swift; sourceTree = "<group>"; };
+		AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcExtensionSwiftTest.m; sourceTree = "<group>"; };
+		AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcExtensionObjcTest.m; sourceTree = "<group>"; };
+		AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategorySwiftTest.m; sourceTree = "<group>"; };
+		AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategoryObjcTest.m; sourceTree = "<group>"; };
 		B1035E0EEFE200EE18EE7B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BFC080A56F3FAE50A7704BE9 /* Pods_UCRuntimeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRuntimeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2366226BCDA6667683EE5CA /* Pods-UCRuntimeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRuntimeKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +181,8 @@
 		6003F593195388D20070C39A /* Example for UCRuntimeKit */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A014A21EC601100BA0DC5 /* ObjcModule */,
+				AB6A014721EC601100BA0DC5 /* SwiftModule */,
 				6003F59C195388D20070C39A /* UCAppDelegate.h */,
 				6003F59D195388D20070C39A /* UCAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -186,6 +212,7 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A015521EC61EC00BA0DC5 /* UCMediatorSwiftTest */,
 				AB0C4D2F21E89FD600EE5D8D /* UCMeditorTest */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				3B43352621E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.h */,
@@ -224,6 +251,71 @@
 				3B98A4FF21EB57D500144984 /* UCNativeUrlInvoke.m */,
 			);
 			path = UCMeditorTest;
+			sourceTree = "<group>";
+		};
+		AB6A014721EC601100BA0DC5 /* SwiftModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A014821EC601100BA0DC5 /* SwiftModule1 */,
+				AB6A014921EC601100BA0DC5 /* SwiftModule2 */,
+			);
+			path = SwiftModule;
+			sourceTree = "<group>";
+		};
+		AB6A014821EC601100BA0DC5 /* SwiftModule1 */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A014F21EC602400BA0DC5 /* UCSwiftModule1ViewController.swift */,
+				AB6A014D21EC602400BA0DC5 /* UCRuntimeKit_Example-Bridging-Header.h */,
+				AB6A014E21EC602400BA0DC5 /* UCRuntimeKit_Tests-Bridging-Header.h */,
+				AB6A015221EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift */,
+			);
+			path = SwiftModule1;
+			sourceTree = "<group>";
+		};
+		AB6A014921EC601100BA0DC5 /* SwiftModule2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SwiftModule2;
+			sourceTree = "<group>";
+		};
+		AB6A014A21EC601100BA0DC5 /* ObjcModule */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A014B21EC601100BA0DC5 /* ObjcModule1 */,
+				AB6A014C21EC601100BA0DC5 /* ObcjModule2 */,
+			);
+			path = ObjcModule;
+			sourceTree = "<group>";
+		};
+		AB6A014B21EC601100BA0DC5 /* ObjcModule1 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObjcModule1;
+			sourceTree = "<group>";
+		};
+		AB6A014C21EC601100BA0DC5 /* ObcjModule2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ObcjModule2;
+			sourceTree = "<group>";
+		};
+		AB6A015521EC61EC00BA0DC5 /* UCMediatorSwiftTest */ = {
+			isa = PBXGroup;
+			children = (
+				AB6A015621EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift */,
+				AB6A015821EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift */,
+				AB6A015A21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift */,
+				AB6A015C21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift */,
+				AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */,
+				AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */,
+				AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */,
+				AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */,
+			);
+			path = UCMediatorSwiftTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +369,11 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = Link;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						LastSwiftMigration = 1010;
+					};
 					6003F5AD195388D20070C39A = {
+						LastSwiftMigration = 1010;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -397,6 +493,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6A015321EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */,
+				AB6A015021EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */,
 				AB0C4D3221E8A25B00EE5D8D /* UCMeditorRuntimeMethodTestFile.m in Sources */,
 				6003F59E195388D20070C39A /* UCAppDelegate.m in Sources */,
 				3B98A50321EB65C200144984 /* UCAppdelegateReceiver.m in Sources */,
@@ -409,10 +507,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6A016521EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m in Sources */,
+				AB6A015421EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */,
+				AB6A015121EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */,
+				AB6A015F21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m in Sources */,
 				3B98A50021EB57D500144984 /* UCNativeUrlInvoke.m in Sources */,
 				3B43352821E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m in Sources */,
 				AB0C4D3121E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m in Sources */,
 				3B98A4FE21EB0D2A00144984 /* UCMediatorUrlFilterDeledate.m in Sources */,
+				AB6A016121EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m in Sources */,
+				AB6A015921EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift in Sources */,
+				AB6A015D21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift in Sources */,
+				AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */,
+				AB6A015721EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift in Sources */,
+				AB6A015B21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift in Sources */,
 				3B98A4FA21EA0AA600144984 /* UCThirdPartUrlInvoke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -559,12 +667,17 @@
 			baseConfigurationReference = E2366226BCDA6667683EE5CA /* Pods-UCRuntimeKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCRuntimeKit/UCRuntimeKit-Prefix.pch";
 				INFOPLIST_FILE = "UCRuntimeKit/UCRuntimeKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UCRuntimeKit/SwiftModule/SwiftModule1/UCRuntimeKit_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -574,12 +687,16 @@
 			baseConfigurationReference = 352D12C53D92C8CCBDA818FE /* Pods-UCRuntimeKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCRuntimeKit/UCRuntimeKit-Prefix.pch";
 				INFOPLIST_FILE = "UCRuntimeKit/UCRuntimeKit-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UCRuntimeKit/SwiftModule/SwiftModule1/UCRuntimeKit_Example-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -590,6 +707,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -602,8 +720,12 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UCRuntimeKit/SwiftModule/SwiftModule1/UCRuntimeKit_Tests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCRuntimeKit_Example.app/UCRuntimeKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -615,6 +737,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -623,8 +746,11 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "UCRuntimeKit/SwiftModule/SwiftModule1/UCRuntimeKit_Tests-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UCRuntimeKit_Example.app/UCRuntimeKit_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -7,7 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
-#import <UCRuntimeKit/UCMediator.h>
+#import <UCRuntimeKit/UCRuntimeKit.h>
 #import "UCMediatorUrlFilterDeledate.h"
 
 @interface UCThirdPartUrlInvoke : XCTestCase

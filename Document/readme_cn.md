@@ -10,6 +10,12 @@
 | Master  |[![CI Status](https://travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=master)](https://travis-ci.org/TryRuntime/UCRuntimeKit)|
 | Develop |[![CI Status](https://api.travis-ci.org/TryRuntime/UCRuntimeKit.svg?branch=develop)](https://travis-ci.org/TryRuntime/UCRuntimeKit) |
 
+## 安装
+
+只使用Objc模块功能的话可以直接`pod 'UCRuntimeKit/UCMediatorObjc'`
+
+swift支持敬请期待!
+
 ## 支持功能
 
 ### 1.0

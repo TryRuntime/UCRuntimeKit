@@ -16,6 +16,11 @@
 
 swift支持敬请期待!
 
+如果在cocoapods搜索不到,可以:
+
+- 1. 执行`pod repo update`
+- 2. 删除旧的缓存`rm ~/Library/Caches/CocoaPods/search_index.json`
+
 ## 支持功能
 
 ### 1.0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UCRuntimeKit'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.summary          = '一个runtime架构模板'
   s.description      = <<-DESC
 一个利用runtime解耦的安全mediator
@@ -19,5 +19,14 @@ Pod::Spec.new do |s|
   s.author           = { 'Link' => 'fanyang_32012@outlook.com' }
   s.source           = { :git => 'https://github.com/TryRuntime/UCRuntimeKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
-  s.source_files = 'UCRuntimeKit/Classes/**/*'
+  s.source_files = 'UCRuntimeKit/Classes/UCRuntimeKit.h'
+
+  s.subspec "UCMediatorObjc" do |ss|
+  ss.source_files = "UCRuntimeKit/Classes/UCMediatorObjc/**/*.{h,m}" 
+  ss.dependency "UCRuntimeKit/Others"
+  end
+
+  s.subspec "Others" do |ss|
+  ss.source_files = "UCRuntimeKit/Classes/Others/**/*.{h,m}" 
+  end
 end

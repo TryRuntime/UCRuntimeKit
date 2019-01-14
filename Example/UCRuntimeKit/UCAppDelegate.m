@@ -7,9 +7,8 @@
 //
 
 #import "UCAppDelegate.h"
-#import <UCRuntimeKit/UCMediator.h>
-#import <UCRuntimeKit/UCMediatorAppdelegateArguments.h>
 #import "UCAppdelegateReceiver.h"
+#import <UCRuntimeKit/UCRuntimeKit.h>
 
 @implementation UCAppDelegate
 

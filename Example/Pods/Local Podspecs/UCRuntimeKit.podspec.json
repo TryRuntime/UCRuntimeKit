@@ -1,8 +1,8 @@
 {
   "name": "UCRuntimeKit",
-  "version": "0.1.0",
+  "version": "1.0",
   "summary": "一个runtime架构模板",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "一个利用runtime解耦的安全mediator",
   "homepage": "git@github.com:TryRuntime/UCRuntimeKit.git",
   "license": {
     "type": "MIT",
@@ -12,8 +12,8 @@
     "Link": "fanyang_32012@outlook.com"
   },
   "source": {
-    "git": "git@github.com:TryRuntime/UCRuntimeKit.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/TryRuntime/UCRuntimeKit.git",
+    "tag": "1.0"
   },
   "platforms": {
     "ios": "8.0"

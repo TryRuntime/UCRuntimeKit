@@ -1,5 +1,5 @@
 PODS:
-  - UCRuntimeKit (0.1.0)
+  - UCRuntimeKit (1.0)
 
 DEPENDENCIES:
   - UCRuntimeKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UCRuntimeKit: 4ded66d52e3febe1b98f46cc328e48da30fbbe24
+  UCRuntimeKit: 967383a6c70d733dfc107a7b51e0a5460c3ddb53
 
 PODFILE CHECKSUM: 02072cc298b1dc6bb0f12281645abf3146f560b5
 

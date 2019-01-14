@@ -42,6 +42,16 @@
 		AB6A016121EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */; };
 		AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */; };
 		AB6A016521EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */; };
+		AB6A016721EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016621EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift */; };
+		AB6A016821EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016621EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift */; };
+		AB6A016A21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */; };
+		AB6A016B21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */; };
+		AB6A016D21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */; };
+		AB6A016E21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */; };
+		AB6A017521EC73B000BA0DC5 /* UCObjcModule1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A017421EC73B000BA0DC5 /* UCObjcModule1ViewController.m */; };
+		AB6A017821EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A017721EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m */; };
+		AB6A017B21EC747400BA0DC5 /* UCObjcModule2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A017A21EC747400BA0DC5 /* UCObjcModule2ViewController.m */; };
+		AB6A017E21EC749100BA0DC5 /* UCObjcModule2Target.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A017D21EC749100BA0DC5 /* UCObjcModule2Target.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,6 +112,17 @@
 		AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcExtensionObjcTest.m; sourceTree = "<group>"; };
 		AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategorySwiftTest.m; sourceTree = "<group>"; };
 		AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategoryObjcTest.m; sourceTree = "<group>"; };
+		AB6A016621EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftModule1.swift"; sourceTree = "<group>"; };
+		AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModule2ViewController.swift; sourceTree = "<group>"; };
+		AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModuleTarget2.swift; sourceTree = "<group>"; };
+		AB6A017321EC73B000BA0DC5 /* UCObjcModule1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule1ViewController.h; sourceTree = "<group>"; };
+		AB6A017421EC73B000BA0DC5 /* UCObjcModule1ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCObjcModule1ViewController.m; sourceTree = "<group>"; };
+		AB6A017621EC73D200BA0DC5 /* UCMediator+UCObjcModule1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCMediator+UCObjcModule1.h"; sourceTree = "<group>"; };
+		AB6A017721EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UCMediator+UCObjcModule1.m"; sourceTree = "<group>"; };
+		AB6A017921EC747400BA0DC5 /* UCObjcModule2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule2ViewController.h; sourceTree = "<group>"; };
+		AB6A017A21EC747400BA0DC5 /* UCObjcModule2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCObjcModule2ViewController.m; sourceTree = "<group>"; };
+		AB6A017C21EC749100BA0DC5 /* UCObjcModule2Target.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule2Target.h; sourceTree = "<group>"; };
+		AB6A017D21EC749100BA0DC5 /* UCObjcModule2Target.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCObjcModule2Target.m; sourceTree = "<group>"; };
 		B1035E0EEFE200EE18EE7B87 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BFC080A56F3FAE50A7704BE9 /* Pods_UCRuntimeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRuntimeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2366226BCDA6667683EE5CA /* Pods-UCRuntimeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UCRuntimeKit_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -269,6 +290,7 @@
 				AB6A014D21EC602400BA0DC5 /* UCRuntimeKit_Example-Bridging-Header.h */,
 				AB6A014E21EC602400BA0DC5 /* UCRuntimeKit_Tests-Bridging-Header.h */,
 				AB6A015221EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift */,
+				AB6A016621EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift */,
 			);
 			path = SwiftModule1;
 			sourceTree = "<group>";
@@ -276,6 +298,8 @@
 		AB6A014921EC601100BA0DC5 /* SwiftModule2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */,
+				AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */,
 			);
 			path = SwiftModule2;
 			sourceTree = "<group>";
@@ -292,6 +316,10 @@
 		AB6A014B21EC601100BA0DC5 /* ObjcModule1 */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A017321EC73B000BA0DC5 /* UCObjcModule1ViewController.h */,
+				AB6A017421EC73B000BA0DC5 /* UCObjcModule1ViewController.m */,
+				AB6A017621EC73D200BA0DC5 /* UCMediator+UCObjcModule1.h */,
+				AB6A017721EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m */,
 			);
 			path = ObjcModule1;
 			sourceTree = "<group>";
@@ -299,6 +327,10 @@
 		AB6A014C21EC601100BA0DC5 /* ObcjModule2 */ = {
 			isa = PBXGroup;
 			children = (
+				AB6A017921EC747400BA0DC5 /* UCObjcModule2ViewController.h */,
+				AB6A017A21EC747400BA0DC5 /* UCObjcModule2ViewController.m */,
+				AB6A017C21EC749100BA0DC5 /* UCObjcModule2Target.h */,
+				AB6A017D21EC749100BA0DC5 /* UCObjcModule2Target.m */,
 			);
 			path = ObcjModule2;
 			sourceTree = "<group>";
@@ -428,7 +460,7 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-frameworks.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/UCRuntimeKit/UCRuntimeKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -439,7 +471,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A82EBE2552EF28BD2D2B9A9A /* [CP] Check Pods Manifest.lock */ = {
@@ -493,10 +525,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB6A017521EC73B000BA0DC5 /* UCObjcModule1ViewController.m in Sources */,
 				AB6A015321EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */,
+				AB6A017B21EC747400BA0DC5 /* UCObjcModule2ViewController.m in Sources */,
 				AB6A015021EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */,
 				AB0C4D3221E8A25B00EE5D8D /* UCMeditorRuntimeMethodTestFile.m in Sources */,
+				AB6A016A21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */,
 				6003F59E195388D20070C39A /* UCAppDelegate.m in Sources */,
+				AB6A017E21EC749100BA0DC5 /* UCObjcModule2Target.m in Sources */,
+				AB6A017821EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m in Sources */,
+				AB6A016D21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */,
+				AB6A016721EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift in Sources */,
 				3B98A50321EB65C200144984 /* UCAppdelegateReceiver.m in Sources */,
 				6003F5A7195388D20070C39A /* UCViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -511,13 +550,16 @@
 				AB6A015421EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */,
 				AB6A015121EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */,
 				AB6A015F21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m in Sources */,
+				AB6A016821EC64EE00BA0DC5 /* UCMediator+SwiftModule1.swift in Sources */,
 				3B98A50021EB57D500144984 /* UCNativeUrlInvoke.m in Sources */,
 				3B43352821E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m in Sources */,
 				AB0C4D3121E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m in Sources */,
 				3B98A4FE21EB0D2A00144984 /* UCMediatorUrlFilterDeledate.m in Sources */,
 				AB6A016121EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m in Sources */,
 				AB6A015921EC625000BA0DC5 /* UCMediatorSwiftExtensionObjcTest.swift in Sources */,
+				AB6A016E21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */,
 				AB6A015D21EC62BC00BA0DC5 /* UCMediatorSwiftCategoryObjcTest.swift in Sources */,
+				AB6A016B21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */,
 				AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */,
 				AB6A015721EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift in Sources */,
 				AB6A015B21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift in Sources */,
@@ -668,6 +710,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCRuntimeKit/UCRuntimeKit-Prefix.pch";
 				INFOPLIST_FILE = "UCRuntimeKit/UCRuntimeKit-Info.plist";
@@ -688,6 +731,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UCRuntimeKit/UCRuntimeKit-Prefix.pch";
 				INFOPLIST_FILE = "UCRuntimeKit/UCRuntimeKit-Info.plist";

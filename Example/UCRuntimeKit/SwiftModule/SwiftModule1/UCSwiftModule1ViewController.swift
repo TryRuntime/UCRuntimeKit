@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import UCRuntimeKit
 
 class UCSwiftModule1ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.title = "SWIFTVC1"
+        self.view.backgroundColor = .red
+    }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let vc = UCMediator.sharedInstance().getSwiftModule2Controller(params: ["haha": 123])
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 }
+

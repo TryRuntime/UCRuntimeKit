@@ -24,15 +24,15 @@ NS_ASSUME_NONNULL_BEGIN
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)thirdPartyPerformActionWithUrl:(nonnull NSString *)urlStr
-                                   completion:(nullable void (^)(NSDictionary *result))completion;
+                                   completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completion;
 
 /**
  本地url调用，不推荐，内部可以解析url以及参数，推荐内部调用使用下面的利用字符串调用
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)nativePerformActionWithUrl:(nonnull NSString *)urlStr
-                                      arg:(nullable NSDictionary *)arg
-                               completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                                      arg:(nullable NSDictionary<NSString *, id> *)arg
+                               completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                                   failure:(nullable void (^)(NSError *error))failureCallBack;
 
 /**
@@ -41,8 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (nullable id)nativePerformTarget:(nonnull NSString *)targetName
                             action:(nonnull NSString *)actionName
-                            params:(nullable NSDictionary *)params
-                        completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                            failure:(nullable void (^)(NSError *error))failureCallBack;
 
 /**
@@ -67,7 +67,7 @@ NS_ASSUME_NONNULL_BEGIN
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)thirdPartyPerformActionWithUrl:(nonnull NSString *)urlStr
-                                   completion:(nullable void (^)(NSDictionary *result))completion
+                                   completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completion
                                         error:(NSError * __autoreleasing *)error;
 
 /**
@@ -75,8 +75,8 @@ NS_ASSUME_NONNULL_BEGIN
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)nativePerformActionWithUrl:(nonnull NSString *)urlStr
-                                      arg:(nullable NSDictionary *)arg
-                               completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                                      arg:(nullable NSDictionary<NSString *, id> *)arg
+                               completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                                   failure:(nullable void (^)(NSError *error))failureCallBack
                                     error:(NSError * __autoreleasing *)error;
 
@@ -86,10 +86,21 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (nullable id)nativePerformTarget:(nonnull NSString *)targetName
                             action:(nonnull NSString *)actionName
-                            params:(nullable NSDictionary *)params
-                        completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                            failure:(nullable void (^)(NSError *error))failureCallBack
                              error:(NSError * __autoreleasing *)error;
+
+/**
+ 本地利用字符串调用，推荐，内部也做了处理,包含了error处理,主要是提供给swift使用的,因为swift不支持**error
+ 调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
+ */
+- (nullable id)nativePerformTarget:(nonnull NSString *)targetName
+                            action:(nonnull NSString *)actionName
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
+                           failure:(nullable void (^)(NSError *error))failureCallBack
+                  invokeErrorBlock:(nullable void (^)(NSError *error))invokeErrorBlock;
 
 /**
  根据字符串动态调用各个模块的appdelegate方法,包含了error处理

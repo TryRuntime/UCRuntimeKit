@@ -7,7 +7,7 @@
 //
 
 #import "UCMeditorRuntimeMethodTestFile.h"
-#import <UCRuntimeKit/UCMediatorArgument.h>
+#import <UCRuntimeKit/UCRuntimeKit.h>
 #import <UIKit/UIKit.h>
 @implementation UCMeditorRuntimeMethodTestFile
 

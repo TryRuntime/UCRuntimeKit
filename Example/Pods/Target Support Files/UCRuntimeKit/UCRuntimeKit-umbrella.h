@@ -12,8 +12,11 @@
 
 #import "UCOtherMacro.h"
 #import "UCMediator.h"
+#import "UCMediatorAppdelegateArguments.h"
 #import "UCMediatorArgument.h"
+#import "UCMediatorError.h"
 #import "UCMediatorParser.h"
+#import "UCRuntimeKit.h"
 
 FOUNDATION_EXPORT double UCRuntimeKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char UCRuntimeKitVersionString[];

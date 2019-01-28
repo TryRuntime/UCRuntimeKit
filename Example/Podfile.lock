@@ -1,5 +1,13 @@
 PODS:
-  - UCRuntimeKit (1.0)
+  - UCRuntimeKit (1.0.1):
+    - UCRuntimeKit/Others (= 1.0.1)
+    - UCRuntimeKit/UCMediatorObjc (= 1.0.1)
+    - UCRuntimeKit/UCMediatorSwift (= 1.0.1)
+  - UCRuntimeKit/Others (1.0.1)
+  - UCRuntimeKit/UCMediatorObjc (1.0.1):
+    - UCRuntimeKit/Others
+  - UCRuntimeKit/UCMediatorSwift (1.0.1):
+    - UCRuntimeKit/UCMediatorObjc
 
 DEPENDENCIES:
   - UCRuntimeKit (from `../`)
@@ -9,8 +17,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UCRuntimeKit: 967383a6c70d733dfc107a7b51e0a5460c3ddb53
+  UCRuntimeKit: cccc1a536977488029d54e608f6a3eb649057ea4
 
 PODFILE CHECKSUM: 02072cc298b1dc6bb0f12281645abf3146f560b5
 
-COCOAPODS: 1.6.0.beta.2
+COCOAPODS: 1.5.3

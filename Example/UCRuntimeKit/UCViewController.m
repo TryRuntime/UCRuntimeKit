@@ -7,6 +7,9 @@
 //
 
 #import "UCViewController.h"
+#import "UCRuntimeKit_Example-Swift.h"
+#import "UCObjcModule1ViewController.h"
+
 @interface UCViewController ()
 
 @end
@@ -25,4 +28,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+//    UIViewController *vc = [[UCSwiftModule1ViewController alloc] init];
+    
+    UIViewController *vc = [UCObjcModule1ViewController new];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end

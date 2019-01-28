@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		083859EFE302C6F3A6AA7760AF069F63 /* Pods-UCRuntimeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2ECD1FC8BEB28C264155933CC8793F8 /* Pods-UCRuntimeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0BCB2EDFEAB71C4973124A735648815B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		14181E00EA538F1CFFE8D269C84BFD5F /* UCRuntimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1B79FE8DE19ECD0A4B6B101A86FEE14 /* UCRuntimeKit-dummy.m */; };
-		3040BDCCA593A15D756EA773EF47687E /* UCMediatorAppdelegateArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = 96E2C9847993893D590342521329891A /* UCMediatorAppdelegateArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4366BB733FE2ABB90BEAFFE7B42223D0 /* UCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D9E4D90890F10F38FE8224713AC5FC9 /* UCMediator.m */; };
-		4610DB4BE43336248B13DD61112DE8E2 /* UCMediatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = A9ED0CC51F887CC601C296E07D754C55 /* UCMediatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B4E76C09451B24A6AAC39820FE5648C /* UCMediatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ED1494E6AC17D40B2AC106AA2566409 /* UCMediatorError.m */; };
-		517E1B4758DEFD3C48A33400372E2B71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		5BEDB88E193A9B6D490324FF27C57FC3 /* Pods-UCRuntimeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD3F2D3D4126376EEB56AEBEE0D7E67 /* Pods-UCRuntimeKit_Example-dummy.m */; };
-		6DA8DF465A042D4D4913D2FC93B0EC72 /* UCMediatorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 62E5220616459C68E0113F0C106A37DC /* UCMediatorParser.m */; };
-		79E3A935FAC0C1D8D3BB4E5094E98DEE /* UCMediatorAppdelegateArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEF5F43AB8EE2EFF97962D81BCF5BDC /* UCMediatorAppdelegateArguments.m */; };
-		8E98A2D769A4E7905C9B4927FCDB6FE4 /* UCRuntimeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A5C69988484DBC288F5AFA6BB5ADF49 /* UCRuntimeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9425C420DF6D55D5BBAA58218B78118C /* UCMediatorArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = 37EAB34FD47526384A76BEE62F5BBABD /* UCMediatorArgument.m */; };
-		AE06BE17BC78488386B029A5422BBF36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
-		BC2EDD6108D9ED269C67CBAFCB5EAE16 /* UCMediatorParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 8282C5DAE2FF67DAC67990902B8CE6E9 /* UCMediatorParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD0B485A6C46ACA3F6820B9E52C79897 /* UCRuntimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 51371A278EA29F5EA10CAC2ADFDF0330 /* UCRuntimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CE3A7D3BA43F96FCFE7BAF27C1B2F8DA /* Pods-UCRuntimeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 800766BB7E8079F59AEA76DFDD99210D /* Pods-UCRuntimeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D21665F01F7930A68B573F914D5082C8 /* UCMediatorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D105CB02D7603D6974D188EE45CBD8 /* UCMediatorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D4A45C576834339AF0665A20B4186D17 /* UCOtherMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 181A9819194C3D36037B3E7BE29B2540 /* UCOtherMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DD857A763290A57FC9178790842E2583 /* Pods-UCRuntimeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 62683CBA51C066CDA2C2684AD69B1945 /* Pods-UCRuntimeKit_Tests-dummy.m */; };
-		FE79D7F09F670C610BA4EEB15E14865F /* UCMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C4C922ED3EE1E491207DB0EFF0A382C /* UCMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		083859EFE302C6F3A6AA7760AF069F63 /* Pods-UCRuntimeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B714767CC7AC5350589BFD506746757C /* Pods-UCRuntimeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B33721427FB5705823124B0A9CD1494 /* UCMediator+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */; };
+		11FF6885E12BAA20E81BF51A2A7685AF /* UCMediatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AC90C1214E20F7B6440C923F72C6E1 /* UCMediatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BF6169727D8594EC0F25BF1687A8390 /* UCMediatorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 714A483FED03952A090E8CB9602AC3D9 /* UCMediatorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35F912BFABD3A3D607EEE38378347DD4 /* UCRuntimeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		434579F63FE86F505248E6B90BCF9861 /* UCMediatorParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BCAC7D4C36B290A7AC80C0B60B3F2EBB /* UCMediatorParser.m */; };
+		454CFEF2046345B3B38685C24BA035D9 /* UCOtherMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 135A4B5DE0CC357EA137C640FC137AFC /* UCOtherMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F3AA8A4CE674237004033FF7763DD54 /* UCMediatorParameterParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */; };
+		5BEDB88E193A9B6D490324FF27C57FC3 /* Pods-UCRuntimeKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E93392CCCCFEFE77342F650E9D30E9 /* Pods-UCRuntimeKit_Example-dummy.m */; };
+		5F7F5191330E97ED7DB98743B52F8179 /* UCMediatorParser.h in Headers */ = {isa = PBXBuildFile; fileRef = D95C59075844B15E41A556883F623F7B /* UCMediatorParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		628485C6608C634955154A92A751BD77 /* UCMediatorAppdelegateArguments.h in Headers */ = {isa = PBXBuildFile; fileRef = E7096879105B665FB9E0CC7E2BDFB828 /* UCMediatorAppdelegateArguments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AFB9D2A055F3FDF7A86DB0CD96432D2 /* UCMediatorError.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BBEBD6B5E19DB600B87A9C0CE32217 /* UCMediatorError.m */; };
+		84C6A53123D68E347B561C789204CD2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		8E97F8620461D602D9EF824FA04DED84 /* UCMediatorAppdelegateArguments.m in Sources */ = {isa = PBXBuildFile; fileRef = 310656A61640FAA8172EC58A06D8A56D /* UCMediatorAppdelegateArguments.m */; };
+		AE32AEAC8E91D8C6014F8713A0DA470F /* UCMediatorArgument.m in Sources */ = {isa = PBXBuildFile; fileRef = DED3AE42930039E6C0A50614929EDE44 /* UCMediatorArgument.m */; };
+		CE3A7D3BA43F96FCFE7BAF27C1B2F8DA /* Pods-UCRuntimeKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D518CE6F452A9CC4B11E3A0D2097209 /* Pods-UCRuntimeKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D97AE0BB549B10560EE7EA8599CAEA92 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		D9E9CCE4C3A1302D08C37E6A2D58069D /* UCMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = F9A7E3E619196F6BAB61EB2542F98461 /* UCMediator.m */; };
+		DC13E13388D33D3A76E5266C31C3B8CC /* UCRuntimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12FD0C2C0D630CBD7A08F4A8C491F7FF /* UCRuntimeKit-dummy.m */; };
+		DD857A763290A57FC9178790842E2583 /* Pods-UCRuntimeKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1F8407292EA36406A24CAC6B356CF4 /* Pods-UCRuntimeKit_Tests-dummy.m */; };
+		E66C86184FDA6687B73DA76E604333C6 /* UCMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 08FDD81AD05136B79587327D7F5B1A5F /* UCMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E72FFF5830E1EB6AE395E2FFB18E8B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FC5BE7D6163E8C7073046B2F9CB17226 /* UCRuntimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BA110DF7660457D5402F3E34DE844D /* UCRuntimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,49 +50,54 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		11896CFC09CD540AB1A1D34ACEC336F8 /* Pods-UCRuntimeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		181A9819194C3D36037B3E7BE29B2540 /* UCOtherMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCOtherMacro.h; sourceTree = "<group>"; };
-		1A7F8A1026519A8DE1724E6741058E1A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		1AC4AF4D78ADD54B75AAEEFF6CB5E598 /* UCRuntimeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRuntimeKit.xcconfig; sourceTree = "<group>"; };
-		1BD3F2D3D4126376EEB56AEBEE0D7E67 /* Pods-UCRuntimeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Example-dummy.m"; sourceTree = "<group>"; };
-		21D105CB02D7603D6974D188EE45CBD8 /* UCMediatorArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCMediatorArgument.h; sourceTree = "<group>"; };
-		22E0AC88342A115173F71CBE6130289C /* UCRuntimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-prefix.pch"; sourceTree = "<group>"; };
-		30ADEBF5574B1F64D61EE0686F84C317 /* UCRuntimeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UCRuntimeKit-Info.plist"; sourceTree = "<group>"; };
-		37EAB34FD47526384A76BEE62F5BBABD /* UCMediatorArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediatorArgument.m; sourceTree = "<group>"; };
-		3EDAD4F7B935587CFD02CEC2F4005F50 /* Pods-UCRuntimeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4BCBDB3D7AC7B8E8492F32EBCF69338E /* Pods-UCRuntimeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRuntimeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		4C4C922ED3EE1E491207DB0EFF0A382C /* UCMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCMediator.h; sourceTree = "<group>"; };
-		51371A278EA29F5EA10CAC2ADFDF0330 /* UCRuntimeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-umbrella.h"; sourceTree = "<group>"; };
-		62683CBA51C066CDA2C2684AD69B1945 /* Pods-UCRuntimeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Tests-dummy.m"; sourceTree = "<group>"; };
-		62E5220616459C68E0113F0C106A37DC /* UCMediatorParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediatorParser.m; sourceTree = "<group>"; };
-		632277BC105C492F2D321DB31BC683EE /* UCRuntimeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRuntimeKit.modulemap; sourceTree = "<group>"; };
-		6D9E4D90890F10F38FE8224713AC5FC9 /* UCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediator.m; sourceTree = "<group>"; };
-		715E169F06920D8657534D8C79ED3D97 /* Pods-UCRuntimeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRuntimeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		800766BB7E8079F59AEA76DFDD99210D /* Pods-UCRuntimeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRuntimeKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		8282C5DAE2FF67DAC67990902B8CE6E9 /* UCMediatorParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCMediatorParser.h; sourceTree = "<group>"; };
-		89316FD92B6C4E3CBA1D273B07BEC825 /* Pods-UCRuntimeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		8A5C69988484DBC288F5AFA6BB5ADF49 /* UCRuntimeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCRuntimeKit.h; path = UCRuntimeKit/Classes/UCRuntimeKit.h; sourceTree = "<group>"; };
-		8A649ED2A38A0E2C06C237B6C97741E6 /* Pods-UCRuntimeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8D415B88A30B04C5A8527E9AD157B702 /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UCRuntimeKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8D6D3185D6701ACB5A89E3D6C803DB58 /* Pods-UCRuntimeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8ED1494E6AC17D40B2AC106AA2566409 /* UCMediatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediatorError.m; sourceTree = "<group>"; };
-		96E2C9847993893D590342521329891A /* UCMediatorAppdelegateArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCMediatorAppdelegateArguments.h; sourceTree = "<group>"; };
-		A1B79FE8DE19ECD0A4B6B101A86FEE14 /* UCRuntimeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCRuntimeKit-dummy.m"; sourceTree = "<group>"; };
+		024DEC6FF56C5949E8CB03B6C516FD6C /* Pods-UCRuntimeKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0471B0CA7DC083F620A3E5E7F8B063BC /* Pods-UCRuntimeKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		08FDD81AD05136B79587327D7F5B1A5F /* UCMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediator.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediator.h; sourceTree = "<group>"; };
+		0D518CE6F452A9CC4B11E3A0D2097209 /* Pods-UCRuntimeKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRuntimeKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		12FD0C2C0D630CBD7A08F4A8C491F7FF /* UCRuntimeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UCRuntimeKit-dummy.m"; sourceTree = "<group>"; };
+		135A4B5DE0CC357EA137C640FC137AFC /* UCOtherMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCOtherMacro.h; path = UCRuntimeKit/Classes/Others/UCOtherMacro.h; sourceTree = "<group>"; };
+		135E6569E31FF53358FD7C213500A759 /* Pods-UCRuntimeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UCMediatorParameterParser.swift; path = UCRuntimeKit/Classes/UCMediatorSwift/UCMediatorParameterParser.swift; sourceTree = "<group>"; };
+		295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UCMediator+Swift.swift"; path = "UCRuntimeKit/Classes/UCMediatorSwift/UCMediator+Swift.swift"; sourceTree = "<group>"; };
+		2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCRuntimeKit.h; path = UCRuntimeKit/Classes/UCRuntimeKit.h; sourceTree = "<group>"; };
+		2EFEC582D88B08B100C7DE613D00A8FA /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UCRuntimeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		310656A61640FAA8172EC58A06D8A56D /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorAppdelegateArguments.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
+		33A514A7F442432482F7A209A64CB770 /* Pods-UCRuntimeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Tests.modulemap"; sourceTree = "<group>"; };
+		38486AA760D74A7016641DCCA266ABAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47BA110DF7660457D5402F3E34DE844D /* UCRuntimeKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-umbrella.h"; sourceTree = "<group>"; };
+		4E1F8407292EA36406A24CAC6B356CF4 /* Pods-UCRuntimeKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		51AC90C1214E20F7B6440C923F72C6E1 /* UCMediatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorError.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorError.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		714A483FED03952A090E8CB9602AC3D9 /* UCMediatorArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorArgument.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.h; sourceTree = "<group>"; };
+		7C61E2848D349950E862706289696FAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EBBCFDA53A69A33C1263301A9D0B548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8975E299C870D02CFE69D5441F3B12F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95BBEBD6B5E19DB600B87A9C0CE32217 /* UCMediatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorError.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorError.m; sourceTree = "<group>"; };
+		95F8A69B7E9DFCE53AA111EB761CA8A5 /* UCRuntimeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRuntimeKit.modulemap; sourceTree = "<group>"; };
+		9867D11FCA1EDB721DD6BB06FDC8C57F /* Pods-UCRuntimeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Example.modulemap"; sourceTree = "<group>"; };
 		A247DBA90071A0F76E78091D7EFB5EA2 /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCRuntimeKit.framework; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A790670645998369D2F34973A6B9BA1C /* Pods-UCRuntimeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Tests.modulemap"; sourceTree = "<group>"; };
-		A9ED0CC51F887CC601C296E07D754C55 /* UCMediatorError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UCMediatorError.h; sourceTree = "<group>"; };
-		ABBA415006F0FFCF10FE458E990139AB /* Pods-UCRuntimeKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Example-Info.plist"; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BDEF5F43AB8EE2EFF97962D81BCF5BDC /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
-		C2ECD1FC8BEB28C264155933CC8793F8 /* Pods-UCRuntimeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRuntimeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
-		D34416ED7DD5E9233CD3124CF0CC3D28 /* Pods-UCRuntimeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D57178086AB25EA344C26AC5D0534207 /* Pods-UCRuntimeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Example.modulemap"; sourceTree = "<group>"; };
-		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		A70C7FE1BB3FDC5043C436AAB9517152 /* Pods-UCRuntimeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		B714767CC7AC5350589BFD506746757C /* Pods-UCRuntimeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRuntimeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		BBFDD6F0D21D462F59CC68C3B1155AE0 /* Pods-UCRuntimeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BCAC7D4C36B290A7AC80C0B60B3F2EBB /* UCMediatorParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorParser.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorParser.m; sourceTree = "<group>"; };
+		C1B60B75E8C5D0CCB1B46553260E1665 /* Pods-UCRuntimeKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		CB2DC8B57EF8CC72521F4E366B5C9B66 /* Pods-UCRuntimeKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRuntimeKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CE06017A650DB00F9E318B52B2EA99F4 /* Pods-UCRuntimeKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D2EDA08AA9F752B5C8A7A3BDD0D5CEBD /* Pods-UCRuntimeKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D3AC34F84E9AEAF75DFF6F3ED7A355B9 /* UCRuntimeKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UCRuntimeKit.xcconfig; sourceTree = "<group>"; };
+		D95C59075844B15E41A556883F623F7B /* UCMediatorParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorParser.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorParser.h; sourceTree = "<group>"; };
+		DED3AE42930039E6C0A50614929EDE44 /* UCMediatorArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorArgument.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.m; sourceTree = "<group>"; };
+		DEF51F3D5B256CFAD8F1C5306E072E84 /* Pods-UCRuntimeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRuntimeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E004F4FD8AB95D7CB6D27D50C15BD6B0 /* Pods_UCRuntimeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRuntimeKit_Tests.framework; path = "Pods-UCRuntimeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E81D971A2A548583DE278945987F7C04 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		F362A72D9DB2B0E7E5788C7C47F9E9DE /* Pods-UCRuntimeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F6E0AC2FDB8A99C7DB131D66070D630E /* Pods-UCRuntimeKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		E55DD52E02B870A7BE8FE0AFCD7A9904 /* Pods-UCRuntimeKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Example-resources.sh"; sourceTree = "<group>"; };
+		E7096879105B665FB9E0CC7E2BDFB828 /* UCMediatorAppdelegateArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorAppdelegateArguments.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.h; sourceTree = "<group>"; };
+		E7DEE559E28EA1A60F566B96147A834E /* UCRuntimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-prefix.pch"; sourceTree = "<group>"; };
+		EB4324374FFAF6E66EF0F7969FFCC784 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		F4A7430469B05302E34628B3AD57BF89 /* Pods-UCRuntimeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F718CFC3CE3D9688D1B9F4DB732A3386 /* Pods_UCRuntimeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRuntimeKit_Example.framework; path = "Pods-UCRuntimeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8E93392CCCCFEFE77342F650E9D30E9 /* Pods-UCRuntimeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Example-dummy.m"; sourceTree = "<group>"; };
+		F9A7E3E619196F6BAB61EB2542F98461 /* UCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediator.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				517E1B4758DEFD3C48A33400372E2B71 /* Foundation.framework in Frameworks */,
+				84C6A53123D68E347B561C789204CD2B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,7 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BCB2EDFEAB71C4973124A735648815B /* Foundation.framework in Frameworks */,
+				D97AE0BB549B10560EE7EA8599CAEA92 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,40 +121,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE06BE17BC78488386B029A5422BBF36 /* Foundation.framework in Frameworks */,
+				E72FFF5830E1EB6AE395E2FFB18E8B39 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1CF9C685CA13FA4C97F1EDA1AEFEC319 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				CC1E1DD045CEFE09FD485CD839F684C7 /* Pods-UCRuntimeKit_Example */,
-				6C671F425E666354965BB4957B59051E /* Pods-UCRuntimeKit_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		443E2838C191929C03D30F557AE44BDF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E81D971A2A548583DE278945987F7C04 /* LICENSE */,
-				1A7F8A1026519A8DE1724E6741058E1A /* README.md */,
-				8D415B88A30B04C5A8527E9AD157B702 /* UCRuntimeKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		44D5347904CF754D6785B84253F2574A /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		450466BE6D7D32EC09E950F3748DCBCA /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,118 +138,156 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5891B8E2F906ABD4735B97D6920F46BD /* Development Pods */ = {
+		53D0BFF4ECD78469DF4FF5D983835223 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				C47271A0DA944BABB29A07F22950008D /* UCRuntimeKit */,
+				FCAF952DB781C7DE46C81D1819632F4E /* Pods-UCRuntimeKit_Example */,
+				5CA6C062488A6F27323A04CFC6D52CDD /* Pods-UCRuntimeKit_Tests */,
 			);
-			name = "Development Pods";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		6C671F425E666354965BB4957B59051E /* Pods-UCRuntimeKit_Tests */ = {
+		54F1CB256C0ED56DCA4A8596828CF29F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A790670645998369D2F34973A6B9BA1C /* Pods-UCRuntimeKit_Tests.modulemap */,
-				715E169F06920D8657534D8C79ED3D97 /* Pods-UCRuntimeKit_Tests-acknowledgements.markdown */,
-				8A649ED2A38A0E2C06C237B6C97741E6 /* Pods-UCRuntimeKit_Tests-acknowledgements.plist */,
-				62683CBA51C066CDA2C2684AD69B1945 /* Pods-UCRuntimeKit_Tests-dummy.m */,
-				F6E0AC2FDB8A99C7DB131D66070D630E /* Pods-UCRuntimeKit_Tests-Info.plist */,
-				C2ECD1FC8BEB28C264155933CC8793F8 /* Pods-UCRuntimeKit_Tests-umbrella.h */,
-				F362A72D9DB2B0E7E5788C7C47F9E9DE /* Pods-UCRuntimeKit_Tests.debug.xcconfig */,
-				11896CFC09CD540AB1A1D34ACEC336F8 /* Pods-UCRuntimeKit_Tests.release.xcconfig */,
-			);
-			name = "Pods-UCRuntimeKit_Tests";
-			path = "Target Support Files/Pods-UCRuntimeKit_Tests";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				5891B8E2F906ABD4735B97D6920F46BD /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				450466BE6D7D32EC09E950F3748DCBCA /* Products */,
-				1CF9C685CA13FA4C97F1EDA1AEFEC319 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		AA5C595B11F7A2FDB990501CE496F61C /* UCMediatorObjc */ = {
-			isa = PBXGroup;
-			children = (
-				4C4C922ED3EE1E491207DB0EFF0A382C /* UCMediator.h */,
-				6D9E4D90890F10F38FE8224713AC5FC9 /* UCMediator.m */,
-				96E2C9847993893D590342521329891A /* UCMediatorAppdelegateArguments.h */,
-				BDEF5F43AB8EE2EFF97962D81BCF5BDC /* UCMediatorAppdelegateArguments.m */,
-				21D105CB02D7603D6974D188EE45CBD8 /* UCMediatorArgument.h */,
-				37EAB34FD47526384A76BEE62F5BBABD /* UCMediatorArgument.m */,
-				A9ED0CC51F887CC601C296E07D754C55 /* UCMediatorError.h */,
-				8ED1494E6AC17D40B2AC106AA2566409 /* UCMediatorError.m */,
-				8282C5DAE2FF67DAC67990902B8CE6E9 /* UCMediatorParser.h */,
-				62E5220616459C68E0113F0C106A37DC /* UCMediatorParser.m */,
-			);
-			name = UCMediatorObjc;
-			path = UCRuntimeKit/Classes/UCMediatorObjc;
-			sourceTree = "<group>";
-		};
-		AB66669B89F6AE66532AB98665C965A3 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				632277BC105C492F2D321DB31BC683EE /* UCRuntimeKit.modulemap */,
-				1AC4AF4D78ADD54B75AAEEFF6CB5E598 /* UCRuntimeKit.xcconfig */,
-				A1B79FE8DE19ECD0A4B6B101A86FEE14 /* UCRuntimeKit-dummy.m */,
-				30ADEBF5574B1F64D61EE0686F84C317 /* UCRuntimeKit-Info.plist */,
-				22E0AC88342A115173F71CBE6130289C /* UCRuntimeKit-prefix.pch */,
-				51371A278EA29F5EA10CAC2ADFDF0330 /* UCRuntimeKit-umbrella.h */,
+				38486AA760D74A7016641DCCA266ABAB /* Info.plist */,
+				95F8A69B7E9DFCE53AA111EB761CA8A5 /* UCRuntimeKit.modulemap */,
+				D3AC34F84E9AEAF75DFF6F3ED7A355B9 /* UCRuntimeKit.xcconfig */,
+				12FD0C2C0D630CBD7A08F4A8C491F7FF /* UCRuntimeKit-dummy.m */,
+				E7DEE559E28EA1A60F566B96147A834E /* UCRuntimeKit-prefix.pch */,
+				47BA110DF7660457D5402F3E34DE844D /* UCRuntimeKit-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/UCRuntimeKit";
 			sourceTree = "<group>";
 		};
+		5CA6C062488A6F27323A04CFC6D52CDD /* Pods-UCRuntimeKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C61E2848D349950E862706289696FAD /* Info.plist */,
+				33A514A7F442432482F7A209A64CB770 /* Pods-UCRuntimeKit_Tests.modulemap */,
+				DEF51F3D5B256CFAD8F1C5306E072E84 /* Pods-UCRuntimeKit_Tests-acknowledgements.markdown */,
+				BBFDD6F0D21D462F59CC68C3B1155AE0 /* Pods-UCRuntimeKit_Tests-acknowledgements.plist */,
+				4E1F8407292EA36406A24CAC6B356CF4 /* Pods-UCRuntimeKit_Tests-dummy.m */,
+				0471B0CA7DC083F620A3E5E7F8B063BC /* Pods-UCRuntimeKit_Tests-frameworks.sh */,
+				C1B60B75E8C5D0CCB1B46553260E1665 /* Pods-UCRuntimeKit_Tests-resources.sh */,
+				B714767CC7AC5350589BFD506746757C /* Pods-UCRuntimeKit_Tests-umbrella.h */,
+				135E6569E31FF53358FD7C213500A759 /* Pods-UCRuntimeKit_Tests.debug.xcconfig */,
+				CE06017A650DB00F9E318B52B2EA99F4 /* Pods-UCRuntimeKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-UCRuntimeKit_Tests";
+			path = "Target Support Files/Pods-UCRuntimeKit_Tests";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5FFC39EFE1C9433B58BDAC4389BC7B38 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				135A4B5DE0CC357EA137C640FC137AFC /* UCOtherMacro.h */,
+			);
+			name = Others;
+			sourceTree = "<group>";
+		};
+		6A4D46E3F6265E8EDDBF1E208F15E793 /* UCMediatorObjc */ = {
+			isa = PBXGroup;
+			children = (
+				08FDD81AD05136B79587327D7F5B1A5F /* UCMediator.h */,
+				F9A7E3E619196F6BAB61EB2542F98461 /* UCMediator.m */,
+				E7096879105B665FB9E0CC7E2BDFB828 /* UCMediatorAppdelegateArguments.h */,
+				310656A61640FAA8172EC58A06D8A56D /* UCMediatorAppdelegateArguments.m */,
+				714A483FED03952A090E8CB9602AC3D9 /* UCMediatorArgument.h */,
+				DED3AE42930039E6C0A50614929EDE44 /* UCMediatorArgument.m */,
+				51AC90C1214E20F7B6440C923F72C6E1 /* UCMediatorError.h */,
+				95BBEBD6B5E19DB600B87A9C0CE32217 /* UCMediatorError.m */,
+				D95C59075844B15E41A556883F623F7B /* UCMediatorParser.h */,
+				BCAC7D4C36B290A7AC80C0B60B3F2EBB /* UCMediatorParser.m */,
+			);
+			name = UCMediatorObjc;
+			sourceTree = "<group>";
+		};
+		78D9ED4AD25B43B78839140E83CB75AD /* UCMediatorSwift */ = {
+			isa = PBXGroup;
+			children = (
+				295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */,
+				157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */,
+			);
+			name = UCMediatorSwift;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				FDF8ABE81C2E4146920902F5055FE13D /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				450466BE6D7D32EC09E950F3748DCBCA /* Products */,
+				53D0BFF4ECD78469DF4FF5D983835223 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				44D5347904CF754D6785B84253F2574A /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD926D6F3E5E08E34E067D1A20A128EE /* Others */ = {
+		CA7587C959BC1352FE7AFF2451ABE6C3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				181A9819194C3D36037B3E7BE29B2540 /* UCOtherMacro.h */,
+				EB4324374FFAF6E66EF0F7969FFCC784 /* LICENSE */,
+				8975E299C870D02CFE69D5441F3B12F9 /* README.md */,
+				2EFEC582D88B08B100C7DE613D00A8FA /* UCRuntimeKit.podspec */,
 			);
-			name = Others;
-			path = UCRuntimeKit/Classes/Others;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C47271A0DA944BABB29A07F22950008D /* UCRuntimeKit */ = {
+		DC9E904CF406F0175DBB6DCF11ED5B6F /* UCRuntimeKit */ = {
 			isa = PBXGroup;
 			children = (
-				8A5C69988484DBC288F5AFA6BB5ADF49 /* UCRuntimeKit.h */,
-				BD926D6F3E5E08E34E067D1A20A128EE /* Others */,
-				443E2838C191929C03D30F557AE44BDF /* Pod */,
-				AB66669B89F6AE66532AB98665C965A3 /* Support Files */,
-				AA5C595B11F7A2FDB990501CE496F61C /* UCMediatorObjc */,
+				2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */,
+				5FFC39EFE1C9433B58BDAC4389BC7B38 /* Others */,
+				CA7587C959BC1352FE7AFF2451ABE6C3 /* Pod */,
+				54F1CB256C0ED56DCA4A8596828CF29F /* Support Files */,
+				6A4D46E3F6265E8EDDBF1E208F15E793 /* UCMediatorObjc */,
+				78D9ED4AD25B43B78839140E83CB75AD /* UCMediatorSwift */,
 			);
 			name = UCRuntimeKit;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		CC1E1DD045CEFE09FD485CD839F684C7 /* Pods-UCRuntimeKit_Example */ = {
+		FCAF952DB781C7DE46C81D1819632F4E /* Pods-UCRuntimeKit_Example */ = {
 			isa = PBXGroup;
 			children = (
-				D57178086AB25EA344C26AC5D0534207 /* Pods-UCRuntimeKit_Example.modulemap */,
-				4BCBDB3D7AC7B8E8492F32EBCF69338E /* Pods-UCRuntimeKit_Example-acknowledgements.markdown */,
-				8D6D3185D6701ACB5A89E3D6C803DB58 /* Pods-UCRuntimeKit_Example-acknowledgements.plist */,
-				1BD3F2D3D4126376EEB56AEBEE0D7E67 /* Pods-UCRuntimeKit_Example-dummy.m */,
-				89316FD92B6C4E3CBA1D273B07BEC825 /* Pods-UCRuntimeKit_Example-frameworks.sh */,
-				ABBA415006F0FFCF10FE458E990139AB /* Pods-UCRuntimeKit_Example-Info.plist */,
-				800766BB7E8079F59AEA76DFDD99210D /* Pods-UCRuntimeKit_Example-umbrella.h */,
-				D34416ED7DD5E9233CD3124CF0CC3D28 /* Pods-UCRuntimeKit_Example.debug.xcconfig */,
-				3EDAD4F7B935587CFD02CEC2F4005F50 /* Pods-UCRuntimeKit_Example.release.xcconfig */,
+				7EBBCFDA53A69A33C1263301A9D0B548 /* Info.plist */,
+				9867D11FCA1EDB721DD6BB06FDC8C57F /* Pods-UCRuntimeKit_Example.modulemap */,
+				CB2DC8B57EF8CC72521F4E366B5C9B66 /* Pods-UCRuntimeKit_Example-acknowledgements.markdown */,
+				A70C7FE1BB3FDC5043C436AAB9517152 /* Pods-UCRuntimeKit_Example-acknowledgements.plist */,
+				F8E93392CCCCFEFE77342F650E9D30E9 /* Pods-UCRuntimeKit_Example-dummy.m */,
+				024DEC6FF56C5949E8CB03B6C516FD6C /* Pods-UCRuntimeKit_Example-frameworks.sh */,
+				E55DD52E02B870A7BE8FE0AFCD7A9904 /* Pods-UCRuntimeKit_Example-resources.sh */,
+				0D518CE6F452A9CC4B11E3A0D2097209 /* Pods-UCRuntimeKit_Example-umbrella.h */,
+				D2EDA08AA9F752B5C8A7A3BDD0D5CEBD /* Pods-UCRuntimeKit_Example.debug.xcconfig */,
+				F4A7430469B05302E34628B3AD57BF89 /* Pods-UCRuntimeKit_Example.release.xcconfig */,
 			);
 			name = "Pods-UCRuntimeKit_Example";
 			path = "Target Support Files/Pods-UCRuntimeKit_Example";
+			sourceTree = "<group>";
+		};
+		FDF8ABE81C2E4146920902F5055FE13D /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC9E904CF406F0175DBB6DCF11ED5B6F /* UCRuntimeKit */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,26 +301,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		474C54B51D1FF13DCD2797033C3AFDE5 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FE79D7F09F670C610BA4EEB15E14865F /* UCMediator.h in Headers */,
-				3040BDCCA593A15D756EA773EF47687E /* UCMediatorAppdelegateArguments.h in Headers */,
-				D21665F01F7930A68B573F914D5082C8 /* UCMediatorArgument.h in Headers */,
-				4610DB4BE43336248B13DD61112DE8E2 /* UCMediatorError.h in Headers */,
-				BC2EDD6108D9ED269C67CBAFCB5EAE16 /* UCMediatorParser.h in Headers */,
-				D4A45C576834339AF0665A20B4186D17 /* UCOtherMacro.h in Headers */,
-				BD0B485A6C46ACA3F6820B9E52C79897 /* UCRuntimeKit-umbrella.h in Headers */,
-				8E98A2D769A4E7905C9B4927FCDB6FE4 /* UCRuntimeKit.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		88EB41C152B95546AC8FE2D4CFE51606 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				083859EFE302C6F3A6AA7760AF069F63 /* Pods-UCRuntimeKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC89D2347BA09254758E98F29BF08CF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E66C86184FDA6687B73DA76E604333C6 /* UCMediator.h in Headers */,
+				628485C6608C634955154A92A751BD77 /* UCMediatorAppdelegateArguments.h in Headers */,
+				2BF6169727D8594EC0F25BF1687A8390 /* UCMediatorArgument.h in Headers */,
+				11FF6885E12BAA20E81BF51A2A7685AF /* UCMediatorError.h in Headers */,
+				5F7F5191330E97ED7DB98743B52F8179 /* UCMediatorParser.h in Headers */,
+				454CFEF2046345B3B38685C24BA035D9 /* UCOtherMacro.h in Headers */,
+				FC5BE7D6163E8C7073046B2F9CB17226 /* UCRuntimeKit-umbrella.h in Headers */,
+				35F912BFABD3A3D607EEE38378347DD4 /* UCRuntimeKit.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,8 +369,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 89381EB1A7B236BE3184D25686165ECB /* Build configuration list for PBXNativeTarget "UCRuntimeKit" */;
 			buildPhases = (
-				474C54B51D1FF13DCD2797033C3AFDE5 /* Headers */,
-				62A49158E74063B99A6590F94E11B93A /* Sources */,
+				ACC89D2347BA09254758E98F29BF08CF /* Headers */,
+				FAC5EFC723B2681C1CFC4B2E542C1233 /* Sources */,
 				27EA769C18256333A86F6CE95FA04D41 /* Frameworks */,
 				FC5D614C0FEE6782093653045A172FA2 /* Resources */,
 			);
@@ -426,24 +444,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62A49158E74063B99A6590F94E11B93A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4366BB733FE2ABB90BEAFFE7B42223D0 /* UCMediator.m in Sources */,
-				79E3A935FAC0C1D8D3BB4E5094E98DEE /* UCMediatorAppdelegateArguments.m in Sources */,
-				9425C420DF6D55D5BBAA58218B78118C /* UCMediatorArgument.m in Sources */,
-				4B4E76C09451B24A6AAC39820FE5648C /* UCMediatorError.m in Sources */,
-				6DA8DF465A042D4D4913D2FC93B0EC72 /* UCMediatorParser.m in Sources */,
-				14181E00EA538F1CFFE8D269C84BFD5F /* UCRuntimeKit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		ABC358EF0D9078FBC125E52BB9E23037 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5BEDB88E193A9B6D490324FF27C57FC3 /* Pods-UCRuntimeKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC5EFC723B2681C1CFC4B2E542C1233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B33721427FB5705823124B0A9CD1494 /* UCMediator+Swift.swift in Sources */,
+				D9E9CCE4C3A1302D08C37E6A2D58069D /* UCMediator.m in Sources */,
+				8E97F8620461D602D9EF824FA04DED84 /* UCMediatorAppdelegateArguments.m in Sources */,
+				AE32AEAC8E91D8C6014F8713A0DA470F /* UCMediatorArgument.m in Sources */,
+				6AFB9D2A055F3FDF7A86DB0CD96432D2 /* UCMediatorError.m in Sources */,
+				4F3AA8A4CE674237004033FF7763DD54 /* UCMediatorParameterParser.swift in Sources */,
+				434579F63FE86F505248E6B90BCF9861 /* UCMediatorParser.m in Sources */,
+				DC13E13388D33D3A76E5266C31C3B8CC /* UCRuntimeKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -465,9 +485,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1D50138F2B12706589ADFB5D8A344AD8 /* Debug */ = {
+		044415F25D89929410EA7284D6DBF428 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AC4AF4D78ADD54B75AAEEFF6CB5E598 /* UCRuntimeKit.xcconfig */;
+			baseConfigurationReference = D3AC34F84E9AEAF75DFF6F3ED7A355B9 /* UCRuntimeKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -479,7 +499,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/UCRuntimeKit/UCRuntimeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UCRuntimeKit/UCRuntimeKit-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/UCRuntimeKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -489,72 +509,9 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		396B39998B8FC177C6ACB74E4E499B4A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D34416ED7DD5E9233CD3124CF0CC3D28 /* Pods-UCRuntimeKit_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		54B7F1CC9FDED1C14FB418F451838DDC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EDAD4F7B935587CFD02CEC2F4005F50 /* Pods-UCRuntimeKit_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -562,7 +519,72 @@
 			};
 			name = Release;
 		};
-		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+		3205F524F17C829486AC8E630CD2BEB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3AC34F84E9AEAF75DFF6F3ED7A355B9 /* UCRuntimeKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UCRuntimeKit/UCRuntimeKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UCRuntimeKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UCRuntimeKit/UCRuntimeKit.modulemap";
+				PRODUCT_MODULE_NAME = UCRuntimeKit;
+				PRODUCT_NAME = UCRuntimeKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E4E5DF266889A1A31A4EEC58126AC34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 135E6569E31FF53358FD7C213500A759 /* Pods-UCRuntimeKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -594,6 +616,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -615,14 +639,11 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -654,6 +675,8 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -680,46 +703,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E6E2AD7ED8212C67953C991B3A81D46B /* Release */ = {
+		D48A907A9E0CA7C8C29257B42274B440 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1AC4AF4D78ADD54B75AAEEFF6CB5E598 /* UCRuntimeKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/UCRuntimeKit/UCRuntimeKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/UCRuntimeKit/UCRuntimeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/UCRuntimeKit/UCRuntimeKit.modulemap";
-				PRODUCT_MODULE_NAME = UCRuntimeKit;
-				PRODUCT_NAME = UCRuntimeKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		FD5BAB8DC3EDE8BB09D8CE95964680CA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11896CFC09CD540AB1A1D34ACEC336F8 /* Pods-UCRuntimeKit_Tests.release.xcconfig */;
+			baseConfigurationReference = CE06017A650DB00F9E318B52B2EA99F4 /* Pods-UCRuntimeKit_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -731,7 +721,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -751,9 +741,9 @@
 			};
 			name = Release;
 		};
-		FED1795823BBB8DF395B99E4E82A43AB /* Debug */ = {
+		D501B376C2B6A2874FF3FBE0A4315AE5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F362A72D9DB2B0E7E5788C7C47F9E9DE /* Pods-UCRuntimeKit_Tests.debug.xcconfig */;
+			baseConfigurationReference = F4A7430469B05302E34628B3AD57BF89 /* Pods-UCRuntimeKit_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -765,12 +755,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Tests/Pods-UCRuntimeKit_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -778,6 +768,44 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1A4C2EADA7009F373370BEDC0FA6EB4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2EDA08AA9F752B5C8A7A3BDD0D5CEBD /* Pods-UCRuntimeKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UCRuntimeKit_Example/Pods-UCRuntimeKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -790,8 +818,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
-				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -799,8 +827,8 @@
 		89381EB1A7B236BE3184D25686165ECB /* Build configuration list for PBXNativeTarget "UCRuntimeKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1D50138F2B12706589ADFB5D8A344AD8 /* Debug */,
-				E6E2AD7ED8212C67953C991B3A81D46B /* Release */,
+				3205F524F17C829486AC8E630CD2BEB9 /* Debug */,
+				044415F25D89929410EA7284D6DBF428 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -808,8 +836,8 @@
 		E60A446EDBCDD172FAED8523F8533BD9 /* Build configuration list for PBXNativeTarget "Pods-UCRuntimeKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FED1795823BBB8DF395B99E4E82A43AB /* Debug */,
-				FD5BAB8DC3EDE8BB09D8CE95964680CA /* Release */,
+				5E4E5DF266889A1A31A4EEC58126AC34 /* Debug */,
+				D48A907A9E0CA7C8C29257B42274B440 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -817,8 +845,8 @@
 		F531A5839C3F035ABC8982F87280D5D8 /* Build configuration list for PBXNativeTarget "Pods-UCRuntimeKit_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				396B39998B8FC177C6ACB74E4E499B4A /* Debug */,
-				54B7F1CC9FDED1C14FB418F451838DDC /* Release */,
+				E1A4C2EADA7009F373370BEDC0FA6EB4 /* Debug */,
+				D501B376C2B6A2874FF3FBE0A4315AE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

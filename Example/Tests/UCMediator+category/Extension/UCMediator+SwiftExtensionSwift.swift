@@ -12,6 +12,7 @@ extension UCMediator {
     
     func getSwiftModule2Controller(params: [String: Any]) -> UIViewController {
         
+        //swift -> extension -> swift class名字需要转换
         let className = UCMediatorParameterParser.getObjcClassName("UCSwiftModuleTarget2")
         guard let vc2 = UCMediator.sharedInstance().nativePerformTarget(className,
                                                                         action: "getController:",

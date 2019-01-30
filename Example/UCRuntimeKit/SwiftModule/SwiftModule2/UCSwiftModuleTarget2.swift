@@ -13,8 +13,6 @@ import UCRuntimeKit
 
     @objc
     func getController(_ paramsObj: UCMediatorArgument) -> UIViewController {
-        
-        print(paramsObj.arguDict)
         return UCSwiftModule2ViewController()
     }
     

@@ -10,6 +10,7 @@ import UIKit
 public class UCMediatorParameterParser: NSObject {
 
     //获取swift类在objc中的名称
+    @objc
     public class func getObjcClassName(_ swiftClassNameStr: String) -> String {
         guard let prefix = Bundle.main.infoDictionary?["CFBundleExecutable"] as? String else {return ""}
         let className = prefix + "." + swiftClassNameStr

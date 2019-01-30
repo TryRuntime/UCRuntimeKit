@@ -60,7 +60,7 @@
 		157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UCMediatorParameterParser.swift; path = UCRuntimeKit/Classes/UCMediatorSwift/UCMediatorParameterParser.swift; sourceTree = "<group>"; };
 		295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UCMediator+Swift.swift"; path = "UCRuntimeKit/Classes/UCMediatorSwift/UCMediator+Swift.swift"; sourceTree = "<group>"; };
 		2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCRuntimeKit.h; path = UCRuntimeKit/Classes/UCRuntimeKit.h; sourceTree = "<group>"; };
-		2EFEC582D88B08B100C7DE613D00A8FA /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = UCRuntimeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2EFEC582D88B08B100C7DE613D00A8FA /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UCRuntimeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		310656A61640FAA8172EC58A06D8A56D /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorAppdelegateArguments.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
 		33A514A7F442432482F7A209A64CB770 /* Pods-UCRuntimeKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Tests.modulemap"; sourceTree = "<group>"; };
 		38486AA760D74A7016641DCCA266ABAB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,12 +71,12 @@
 		714A483FED03952A090E8CB9602AC3D9 /* UCMediatorArgument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorArgument.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.h; sourceTree = "<group>"; };
 		7C61E2848D349950E862706289696FAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EBBCFDA53A69A33C1263301A9D0B548 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8975E299C870D02CFE69D5441F3B12F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8975E299C870D02CFE69D5441F3B12F9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		95BBEBD6B5E19DB600B87A9C0CE32217 /* UCMediatorError.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorError.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorError.m; sourceTree = "<group>"; };
 		95F8A69B7E9DFCE53AA111EB761CA8A5 /* UCRuntimeKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UCRuntimeKit.modulemap; sourceTree = "<group>"; };
 		9867D11FCA1EDB721DD6BB06FDC8C57F /* Pods-UCRuntimeKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UCRuntimeKit_Example.modulemap"; sourceTree = "<group>"; };
-		A247DBA90071A0F76E78091D7EFB5EA2 /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UCRuntimeKit.framework; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A247DBA90071A0F76E78091D7EFB5EA2 /* UCRuntimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UCRuntimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70C7FE1BB3FDC5043C436AAB9517152 /* Pods-UCRuntimeKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		B714767CC7AC5350589BFD506746757C /* Pods-UCRuntimeKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UCRuntimeKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		BBFDD6F0D21D462F59CC68C3B1155AE0 /* Pods-UCRuntimeKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UCRuntimeKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -89,13 +89,13 @@
 		D95C59075844B15E41A556883F623F7B /* UCMediatorParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorParser.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorParser.h; sourceTree = "<group>"; };
 		DED3AE42930039E6C0A50614929EDE44 /* UCMediatorArgument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorArgument.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorArgument.m; sourceTree = "<group>"; };
 		DEF51F3D5B256CFAD8F1C5306E072E84 /* Pods-UCRuntimeKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UCRuntimeKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E004F4FD8AB95D7CB6D27D50C15BD6B0 /* Pods_UCRuntimeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRuntimeKit_Tests.framework; path = "Pods-UCRuntimeKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E004F4FD8AB95D7CB6D27D50C15BD6B0 /* Pods_UCRuntimeKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRuntimeKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E55DD52E02B870A7BE8FE0AFCD7A9904 /* Pods-UCRuntimeKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UCRuntimeKit_Example-resources.sh"; sourceTree = "<group>"; };
 		E7096879105B665FB9E0CC7E2BDFB828 /* UCMediatorAppdelegateArguments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCMediatorAppdelegateArguments.h; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.h; sourceTree = "<group>"; };
 		E7DEE559E28EA1A60F566B96147A834E /* UCRuntimeKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UCRuntimeKit-prefix.pch"; sourceTree = "<group>"; };
-		EB4324374FFAF6E66EF0F7969FFCC784 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EB4324374FFAF6E66EF0F7969FFCC784 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F4A7430469B05302E34628B3AD57BF89 /* Pods-UCRuntimeKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F718CFC3CE3D9688D1B9F4DB732A3386 /* Pods_UCRuntimeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UCRuntimeKit_Example.framework; path = "Pods-UCRuntimeKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F718CFC3CE3D9688D1B9F4DB732A3386 /* Pods_UCRuntimeKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UCRuntimeKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E93392CCCCFEFE77342F650E9D30E9 /* Pods-UCRuntimeKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UCRuntimeKit_Example-dummy.m"; sourceTree = "<group>"; };
 		F9A7E3E619196F6BAB61EB2542F98461 /* UCMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediator.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -509,8 +509,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -768,8 +767,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";

@@ -12,6 +12,7 @@
 		3B98A4FE21EB0D2A00144984 /* UCMediatorUrlFilterDeledate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A4FC21EB0C3E00144984 /* UCMediatorUrlFilterDeledate.m */; };
 		3B98A50021EB57D500144984 /* UCNativeUrlInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A4FF21EB57D500144984 /* UCNativeUrlInvoke.m */; };
 		3B98A50321EB65C200144984 /* UCAppdelegateReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A50221EB65C200144984 /* UCAppdelegateReceiver.m */; };
+		3BAD3B7222019DEF00AC1DC3 /* UCMediator+SwiftCategorySwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */; };
 		3BC2651A21FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */; };
 		3BC2651B21FEFC8900BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */; };
 		3BC2651D21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */; };
@@ -78,6 +79,8 @@
 		3B98A4FF21EB57D500144984 /* UCNativeUrlInvoke.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCNativeUrlInvoke.m; sourceTree = "<group>"; };
 		3B98A50121EB65C200144984 /* UCAppdelegateReceiver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCAppdelegateReceiver.h; sourceTree = "<group>"; };
 		3B98A50221EB65C200144984 /* UCAppdelegateReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAppdelegateReceiver.m; sourceTree = "<group>"; };
+		3BAD3B6F22018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCMediator+SwiftCategorySwift.h"; sourceTree = "<group>"; };
+		3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UCMediator+SwiftCategorySwift.m"; sourceTree = "<group>"; };
 		3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionSwift.swift"; sourceTree = "<group>"; };
 		3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionObjc.swift"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCRuntimeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCRuntimeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -190,6 +193,8 @@
 		3BC2651821FEFC3500BA5A26 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				3BAD3B6F22018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.h */,
+				3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -594,6 +599,7 @@
 				AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */,
 				AB6A015721EC622900BA0DC5 /* UCMediatorSwiftExtensionSwiftTest.swift in Sources */,
 				AB6A015B21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift in Sources */,
+				3BAD3B7222019DEF00AC1DC3 /* UCMediator+SwiftCategorySwift.m in Sources */,
 				3B98A4FA21EA0AA600144984 /* UCThirdPartUrlInvoke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

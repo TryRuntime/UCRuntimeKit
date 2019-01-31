@@ -13,6 +13,8 @@
 		3B98A50021EB57D500144984 /* UCNativeUrlInvoke.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A4FF21EB57D500144984 /* UCNativeUrlInvoke.m */; };
 		3B98A50321EB65C200144984 /* UCAppdelegateReceiver.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B98A50221EB65C200144984 /* UCAppdelegateReceiver.m */; };
 		3BAD3B7222019DEF00AC1DC3 /* UCMediator+SwiftCategorySwift.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */; };
+		3BAD3B7922029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD3B7822029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m */; };
+		3BAD3B7A22029A3800AC1DC3 /* UCMediator+SwiftCategoryObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAD3B7822029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m */; };
 		3BC2651A21FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */; };
 		3BC2651B21FEFC8900BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */; };
 		3BC2651D21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */; };
@@ -81,6 +83,8 @@
 		3B98A50221EB65C200144984 /* UCAppdelegateReceiver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCAppdelegateReceiver.m; sourceTree = "<group>"; };
 		3BAD3B6F22018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCMediator+SwiftCategorySwift.h"; sourceTree = "<group>"; };
 		3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UCMediator+SwiftCategorySwift.m"; sourceTree = "<group>"; };
+		3BAD3B7722029A3300AC1DC3 /* UCMediator+SwiftCategoryObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UCMediator+SwiftCategoryObjc.h"; sourceTree = "<group>"; };
+		3BAD3B7822029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UCMediator+SwiftCategoryObjc.m"; sourceTree = "<group>"; };
 		3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionSwift.swift"; sourceTree = "<group>"; };
 		3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionObjc.swift"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCRuntimeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCRuntimeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -195,6 +199,8 @@
 			children = (
 				3BAD3B6F22018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.h */,
 				3BAD3B7022018FB200AC1DC3 /* UCMediator+SwiftCategorySwift.m */,
+				3BAD3B7722029A3300AC1DC3 /* UCMediator+SwiftCategoryObjc.h */,
+				3BAD3B7822029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -569,6 +575,7 @@
 				6003F59E195388D20070C39A /* UCAppDelegate.m in Sources */,
 				AB6A017E21EC749100BA0DC5 /* UCObjcModule2Target.m in Sources */,
 				AB6A017821EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m in Sources */,
+				3BAD3B7922029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m in Sources */,
 				AB6A016D21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */,
 				3B98A50321EB65C200144984 /* UCAppdelegateReceiver.m in Sources */,
 				6003F5A7195388D20070C39A /* UCViewController.m in Sources */,
@@ -588,6 +595,7 @@
 				3BC2651E21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift in Sources */,
 				AB6A015F21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m in Sources */,
 				3B98A50021EB57D500144984 /* UCNativeUrlInvoke.m in Sources */,
+				3BAD3B7A22029A3800AC1DC3 /* UCMediator+SwiftCategoryObjc.m in Sources */,
 				3B43352821E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m in Sources */,
 				AB0C4D3121E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m in Sources */,
 				3B98A4FE21EB0D2A00144984 /* UCMediatorUrlFilterDeledate.m in Sources */,

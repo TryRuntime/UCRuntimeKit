@@ -50,7 +50,6 @@
 		AB6A015F21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */; };
 		AB6A016121EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */; };
 		AB6A016321EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */; };
-		AB6A016521EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */; };
 		AB6A016A21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */; };
 		AB6A016B21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */; };
 		AB6A016D21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */; };
@@ -125,7 +124,6 @@
 		AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcExtensionSwiftTest.m; sourceTree = "<group>"; };
 		AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcExtensionObjcTest.m; sourceTree = "<group>"; };
 		AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategorySwiftTest.m; sourceTree = "<group>"; };
-		AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UCMediatorObjcCategoryObjcTest.m; sourceTree = "<group>"; };
 		AB6A016921EC657200BA0DC5 /* UCSwiftModule2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModule2ViewController.swift; sourceTree = "<group>"; };
 		AB6A016C21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UCSwiftModuleTarget2.swift; sourceTree = "<group>"; };
 		AB6A017321EC73B000BA0DC5 /* UCObjcModule1ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UCObjcModule1ViewController.h; sourceTree = "<group>"; };
@@ -389,7 +387,6 @@
 				AB6A015E21EC62D400BA0DC5 /* UCMediatorObjcExtensionSwiftTest.m */,
 				AB6A016021EC62E700BA0DC5 /* UCMediatorObjcExtensionObjcTest.m */,
 				AB6A016221EC630E00BA0DC5 /* UCMediatorObjcCategorySwiftTest.m */,
-				AB6A016421EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m */,
 			);
 			path = UCMediatorSwiftTest;
 			sourceTree = "<group>";
@@ -593,7 +590,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB6A016521EC632300BA0DC5 /* UCMediatorObjcCategoryObjcTest.m in Sources */,
 				AB6A015421EC60C800BA0DC5 /* UCSwiftModuleTarget1.swift in Sources */,
 				3BC2651B21FEFC8900BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */,
 				AB6A015121EC602400BA0DC5 /* UCSwiftModule1ViewController.swift in Sources */,

@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		083859EFE302C6F3A6AA7760AF069F63 /* Pods-UCRuntimeKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B714767CC7AC5350589BFD506746757C /* Pods-UCRuntimeKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B33721427FB5705823124B0A9CD1494 /* UCMediator+Swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */; };
 		11FF6885E12BAA20E81BF51A2A7685AF /* UCMediatorError.h in Headers */ = {isa = PBXBuildFile; fileRef = 51AC90C1214E20F7B6440C923F72C6E1 /* UCMediatorError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2BF6169727D8594EC0F25BF1687A8390 /* UCMediatorArgument.h in Headers */ = {isa = PBXBuildFile; fileRef = 714A483FED03952A090E8CB9602AC3D9 /* UCMediatorArgument.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35F912BFABD3A3D607EEE38378347DD4 /* UCRuntimeKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,7 +57,6 @@
 		135A4B5DE0CC357EA137C640FC137AFC /* UCOtherMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCOtherMacro.h; path = UCRuntimeKit/Classes/Others/UCOtherMacro.h; sourceTree = "<group>"; };
 		135E6569E31FF53358FD7C213500A759 /* Pods-UCRuntimeKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UCRuntimeKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UCMediatorParameterParser.swift; path = UCRuntimeKit/Classes/UCMediatorSwift/UCMediatorParameterParser.swift; sourceTree = "<group>"; };
-		295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UCMediator+Swift.swift"; path = "UCRuntimeKit/Classes/UCMediatorSwift/UCMediator+Swift.swift"; sourceTree = "<group>"; };
 		2B9E76F4B8D4D4D3D097BD45E0B39B66 /* UCRuntimeKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UCRuntimeKit.h; path = UCRuntimeKit/Classes/UCRuntimeKit.h; sourceTree = "<group>"; };
 		2EFEC582D88B08B100C7DE613D00A8FA /* UCRuntimeKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = UCRuntimeKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		310656A61640FAA8172EC58A06D8A56D /* UCMediatorAppdelegateArguments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UCMediatorAppdelegateArguments.m; path = UCRuntimeKit/Classes/UCMediatorObjc/UCMediatorAppdelegateArguments.m; sourceTree = "<group>"; };
@@ -215,7 +213,6 @@
 		78D9ED4AD25B43B78839140E83CB75AD /* UCMediatorSwift */ = {
 			isa = PBXGroup;
 			children = (
-				295F45D9308410566ECA35317DBE6C8A /* UCMediator+Swift.swift */,
 				157D8809A43A9C30C399082663F86458 /* UCMediatorParameterParser.swift */,
 			);
 			name = UCMediatorSwift;
@@ -456,7 +453,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B33721427FB5705823124B0A9CD1494 /* UCMediator+Swift.swift in Sources */,
 				D9E9CCE4C3A1302D08C37E6A2D58069D /* UCMediator.m in Sources */,
 				8E97F8620461D602D9EF824FA04DED84 /* UCMediatorAppdelegateArguments.m in Sources */,
 				AE32AEAC8E91D8C6014F8713A0DA470F /* UCMediatorArgument.m in Sources */,

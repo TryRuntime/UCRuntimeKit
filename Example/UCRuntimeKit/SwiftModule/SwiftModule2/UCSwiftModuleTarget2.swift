@@ -12,6 +12,11 @@ import UCRuntimeKit
 @objc class UCSwiftModuleTarget2: NSObject {
 
     @objc
+    func testClosure(_ paramsObj: UCMediatorArgument) {
+        paramsObj.completionCallBack(["key": "调用block"])
+    }
+    
+    @objc
     func getController(_ paramsObj: UCMediatorArgument) -> UIViewController {
         return UCSwiftModule2ViewController()
     }

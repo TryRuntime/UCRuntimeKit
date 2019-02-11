@@ -22,6 +22,13 @@ extension UCMediator {
         return vc2
     }
     
+    func testSwiftExtensionSwiftClosure(closure: @escaping ([AnyHashable: Any]) -> Void, invokeError: @escaping (Error) -> Void) {
+        let className = UCMediatorParameterParser.getObjcClassName("UCSwiftModuleTarget2")
+        UCMediator.sharedInstance().nativePerformTarget(className, action: "testClosure:", params: nil, completion: closure, failure: nil) { (error) in
+            invokeError(error)
+        }
+    }
+    
     func testExtensionNoArguNoResult(invokeError: @escaping (Error) -> Void) {
         let className = UCMediatorParameterParser.getObjcClassName("UCSwiftModuleTarget2")
         UCMediator.sharedInstance().nativePerformTarget(className, action: "noReturnNoParameter", params: nil, completion: nil, failure: nil) { (error) in

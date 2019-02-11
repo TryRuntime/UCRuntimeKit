@@ -16,35 +16,20 @@
 
 @implementation UCMediatorObjcExtensionSwiftTest
 
-- (void)setUp {
-    // Put setup code here. This method is called before the invocation of each test method in the class.
-}
-
-- (void)tearDown {
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
-}
-
-- (void)testPerformanceExample {
-    // This is an example of a performance test case.
-    [self measureBlock:^{
-        // Put the code you want to measure the time of here.
-    }];
-}
-
 - (void)testNoArguNoReturn {
-    [[UCMediator sharedInstance] testObjcExtensionObjcNoResultNoArgumentWithInvokeError:^(NSError * error) {
+    [[UCMediator sharedInstance] testObjcExtensionSwiftNoResultNoArgumentWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
 }
 
 - (void)testOneArguNoReturn {
-    [[UCMediator sharedInstance] testObjcExtensionObjcNoResultOneArgumentWithInvokeError:^(NSError * error) {
+    [[UCMediator sharedInstance] testObjcExtensionSwiftNoResultOneArgumentWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
 }
 
 - (void)testOneArguReturnInt {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnIntWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnIntWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     int a = [result intValue];
@@ -52,7 +37,7 @@
 }
 
 - (void)testOneArguReturnUInt {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnUIntWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnUIntWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     unsigned int a = [result unsignedIntValue];
@@ -60,7 +45,7 @@
 }
 
 - (void)testOneArguReturnShort {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnShortWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnShortWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     short a = [result shortValue];
@@ -68,7 +53,7 @@
 }
 
 - (void)testOneArguReturnUShort {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnUShortWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnUShortWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     unsigned short a = [result unsignedShortValue];
@@ -76,7 +61,7 @@
 }
 
 - (void)testOneArguReturnLong {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnLongWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnLongWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     long a = [result longValue];
@@ -84,7 +69,7 @@
 }
 
 - (void)testOneArguReturnULong {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnULongWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnULongWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     unsigned long a = [result unsignedLongValue];
@@ -92,7 +77,7 @@
 }
 
 - (void)testOneArguReturnLongLong {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnLongLongWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnLongLongWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     long long a = [result longLongValue];
@@ -100,7 +85,7 @@
 }
 
 - (void)testOneArguReturnULongLong {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnULongLongWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnULongLongWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     unsigned long long a = [result unsignedLongLongValue];
@@ -108,7 +93,7 @@
 }
 
 - (void)testOneArguReturnFloat {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnFloatWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnFloatWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     float a = [result floatValue];
@@ -116,7 +101,7 @@
 }
 
 - (void)testOneArguReturnDouble {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnDoubleWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnDoubleWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     double a = [result doubleValue];
@@ -124,7 +109,7 @@
 }
 
 - (void)testOneArguReturnChar {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnCharWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnCharWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     char a = [result charValue];
@@ -132,7 +117,7 @@
 }
 
 - (void)testOneArguReturnUChar {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnUCharWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnUCharWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     unsigned char a = [result unsignedCharValue];
@@ -140,7 +125,7 @@
 }
 
 - (void)testOneArguReturnYes {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnTrueWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnTrueWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     BOOL a = [result boolValue];
@@ -148,7 +133,7 @@
 }
 
 - (void)testOneArguReturnNo {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnFalseWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnFalseWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     BOOL a = [result boolValue];
@@ -156,7 +141,7 @@
 }
 
 - (void)testOneArguReturnCGFloat {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnCGFloatWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnCGFloatWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     CGFloat a = [result floatValue];
@@ -164,14 +149,14 @@
 }
 
 - (void)testOneArguReturnNSString {
-    NSString *result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnNSStringWithInvokeError:^(NSError * error) {
+    NSString *result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnNSStringWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     XCTAssert([result isEqualToString:@"a"], @"返回值异常");
 }
 
 - (void)testOneArguReturnNSArray {
-    NSArray *result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnArrayWithInvokeError:^(NSError * error) {
+    NSArray *result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnArrayWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     NSArray *array = @[@1, @2, @3];
@@ -179,7 +164,7 @@
 }
 
 - (void)testOneArguReturnNSDictionary {
-    NSDictionary *result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnNSDictionaryWithInvokeError:^(NSError * error) {
+    NSDictionary *result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnNSDictionaryWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     NSDictionary *dict = @{@"key1": @"value"};
@@ -187,14 +172,14 @@
 }
 
 - (void)testOneArguReturnNSNumber {
-    NSNumber *result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnNSNumberWithInvokeError:^(NSError * error) {
+    NSNumber *result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnNSNumberWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     XCTAssert(result.intValue == 1, @"返回值异常");
 }
 
 - (void)testBlock {
-    id result = [[UCMediator sharedInstance] testObjcExtensionObjcNoArguReturnBlockWithInvokeError:^(NSError * error) {
+    id result = [[UCMediator sharedInstance] testObjcExtensionSwiftNoArguReturnBlockWithInvokeError:^(NSError * error) {
         XCTAssertNil(error, @"error code = %ld, error message = %@",(long)error.code, error.userInfo[@"kUCMediatorErrorInfoKey"]);
     }];
     NSLog(@"%@",result);

@@ -33,7 +33,7 @@
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)thirdPartyPerformActionWithUrl:(nonnull NSString *)urlStr
-                                   completion:(nullable void (^)(NSDictionary *result))completion {
+                                   completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completion {
     return [self thirdPartyPerformActionWithUrl:urlStr completion:completion error:nil];
 }
 
@@ -42,8 +42,8 @@
  调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
  */
 - (nullable id)nativePerformActionWithUrl:(nonnull NSString *)urlStr
-                                      arg:(nullable NSDictionary *)arg
-                               completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                                      arg:(nullable NSDictionary<NSString *, id> *)arg
+                               completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                                   failure:(nullable void (^)(NSError *error))failureCallBack {
     
     return [self nativePerformActionWithUrl:urlStr arg:arg completion:completionCallBack failure:failureCallBack error:nil];
@@ -55,8 +55,8 @@
  */
 - (nullable id)nativePerformTarget:(nonnull NSString *)targetName
                             action:(nonnull NSString *)actionName
-                            params:(nullable NSDictionary *)params
-                        completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                            failure:(nullable void (^)(NSError *error))failureCallBack {
     return [self nativePerformTarget:targetName action:actionName params:params
                           completion:completionCallBack failure:failureCallBack error:nil];
@@ -86,7 +86,7 @@
 
 #pragma mark - 异常处理
 - (nullable id)thirdPartyPerformActionWithUrl:(nonnull NSString *)urlStr
-                                   completion:(nullable void (^)(NSDictionary *result))completion
+                                   completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completion
                                         error:(NSError * __autoreleasing *)error {
     
     //这里做url拦截,过滤的操作,根据返回的布尔值判断是否调用
@@ -104,8 +104,8 @@
 }
 
 - (nullable id)nativePerformActionWithUrl:(nonnull NSString *)urlStr
-                                      arg:(nullable NSDictionary *)arg
-                               completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                                      arg:(nullable NSDictionary<NSString *, id> *)arg
+                               completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                                   failure:(nullable void (^)(NSError *error))failureCallBack
                                     error:(NSError * __autoreleasing *)error {
     
@@ -159,8 +159,8 @@
 
 - (nullable id)nativePerformTarget:(nonnull NSString *)targetName
                             action:(nonnull NSString *)actionName
-                            params:(nullable NSDictionary *)params
-                        completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                            failure:(nullable void (^)(NSError *error))failureCallBack
                              error:(NSError * __autoreleasing *)error {
     
@@ -181,6 +181,24 @@
         //调用失败
         return nil;
     }
+}
+
+/**
+ 本地利用字符串调用，推荐，内部也做了处理,包含了error处理,主要是提供给swift使用的,因为swift不支持**error
+ 调用这个api,只会给方法的第一个参数传智,接收的参数类型在运行时是UCMediatorArgument
+ */
+- (nullable id)nativePerformTarget:(nonnull NSString *)targetName
+                            action:(nonnull NSString *)actionName
+                            params:(nullable NSDictionary<NSString *, id> *)params
+                        completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
+                           failure:(nullable void (^)(NSError *error))failureCallBack
+                  invokeErrorBlock:(nullable void (^)(NSError *error))invokeErrorBlock {
+    NSError *error;
+    id obj = [self nativePerformTarget:targetName action:actionName params:params completion:completionCallBack failure:failureCallBack error:&error];
+    if (invokeErrorBlock && error) {
+        invokeErrorBlock(error);
+    }
+    return obj;
 }
 
 - (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
@@ -259,7 +277,7 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
 }
 
 - (nonnull UCMediatorArgument *)p_createArgsArrayWithArg:(nullable NSDictionary *)arg
-                                              completion:(nullable void (^)(NSDictionary *result))completionCallBack
+                                              completion:(nullable void (^)(NSDictionary<NSString *, id> *result))completionCallBack
                                                  failure:(nullable void (^)(NSError *error))failureCallBack
                                                    error:(NSError **)error {
     

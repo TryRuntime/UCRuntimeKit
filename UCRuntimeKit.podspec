@@ -21,6 +21,11 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source_files = 'UCRuntimeKit/Classes/UCRuntimeKit.h'
 
+  s.subspec "UCMediatorSwift" do |ss|
+  ss.source_files = "UCRuntimeKit/Classes/UCMediatorSwift/**/*.{swift}" 
+  ss.dependency "UCRuntimeKit/UCMediatorObjc"
+  end
+
   s.subspec "UCMediatorObjc" do |ss|
   ss.source_files = "UCRuntimeKit/Classes/UCMediatorObjc/**/*.{h,m}" 
   ss.dependency "UCRuntimeKit/Others"

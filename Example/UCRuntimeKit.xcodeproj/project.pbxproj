@@ -287,7 +287,7 @@
 			children = (
 				3BC2651621FEFC3500BA5A26 /* UCMediator+category */,
 				AB6A015521EC61EC00BA0DC5 /* UCMediatorSwiftTest */,
-				AB0C4D2F21E89FD600EE5D8D /* UCMeditorTest */,
+				AB0C4D2F21E89FD600EE5D8D /* UCMeditorObjcTest */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 				3B43352621E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.h */,
 				3B43352721E79CE500DED162 /* UCMeditorRuntimeMethodTestFile.m */,
@@ -317,14 +317,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AB0C4D2F21E89FD600EE5D8D /* UCMeditorTest */ = {
+		AB0C4D2F21E89FD600EE5D8D /* UCMeditorObjcTest */ = {
 			isa = PBXGroup;
 			children = (
 				AB0C4D3021E8A1CC00EE5D8D /* UCMeditorNativeTargetInvoke.m */,
 				3B98A4F921EA0AA600144984 /* UCThirdPartUrlInvoke.m */,
 				3B98A4FF21EB57D500144984 /* UCNativeUrlInvoke.m */,
 			);
-			path = UCMeditorTest;
+			path = UCMeditorObjcTest;
 			sourceTree = "<group>";
 		};
 		AB6A014721EC601100BA0DC5 /* SwiftModule */ = {

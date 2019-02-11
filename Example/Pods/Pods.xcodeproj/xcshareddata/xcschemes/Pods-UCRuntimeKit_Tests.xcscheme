@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "UCRuntimeKit_Example.app"
-               BlueprintName = "UCRuntimeKit_Example"
-               ReferencedContainer = "container:UCRuntimeKit.xcodeproj">
+               BlueprintIdentifier = "0758D8826351159C5776BA308CC44D81"
+               BuildableName = "Pods_UCRuntimeKit_Tests.framework"
+               BlueprintName = "Pods-UCRuntimeKit_Tests"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -29,26 +29,7 @@
       codeCoverageEnabled = "YES"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "UCRuntimeKit_Tests.xctest"
-               BlueprintName = "UCRuntimeKit_Tests"
-               ReferencedContainer = "container:UCRuntimeKit.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "UCRuntimeKit_Example.app"
-            BlueprintName = "UCRuntimeKit_Example"
-            ReferencedContainer = "container:UCRuntimeKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -62,16 +43,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "UCRuntimeKit_Example.app"
-            BlueprintName = "UCRuntimeKit_Example"
-            ReferencedContainer = "container:UCRuntimeKit.xcodeproj">
+            BlueprintIdentifier = "0758D8826351159C5776BA308CC44D81"
+            BuildableName = "Pods_UCRuntimeKit_Tests.framework"
+            BlueprintName = "Pods-UCRuntimeKit_Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -81,16 +61,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "UCRuntimeKit_Example.app"
-            BlueprintName = "UCRuntimeKit_Example"
-            ReferencedContainer = "container:UCRuntimeKit.xcodeproj">
+            BlueprintIdentifier = "0758D8826351159C5776BA308CC44D81"
+            BuildableName = "Pods_UCRuntimeKit_Tests.framework"
+            BlueprintName = "Pods-UCRuntimeKit_Tests"
+            ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

@@ -21,6 +21,8 @@
 		3BC2651B21FEFC8900BA5A26 /* UCMediator+SwiftExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */; };
 		3BC2651D21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */; };
 		3BC2651E21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */; };
+		3BFB317F2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB317E2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift */; };
+		3BFB31802207059D003AE1E4 /* UCMediator +ObjcExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFB317E2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -89,6 +91,7 @@
 		3BAD3B7B2202CDF300AC1DC3 /* UCMediator+ObjcExtensionObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator+ObjcExtensionObjc.swift"; sourceTree = "<group>"; };
 		3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionSwift.swift"; sourceTree = "<group>"; };
 		3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator+SwiftExtensionObjc.swift"; sourceTree = "<group>"; };
+		3BFB317E2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UCMediator +ObjcExtensionSwift.swift"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UCRuntimeKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UCRuntimeKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -192,6 +195,7 @@
 				3BC2651921FEFC6600BA5A26 /* UCMediator+SwiftExtensionSwift.swift */,
 				3BC2651C21FEFCE500BA5A26 /* UCMediator+SwiftExtensionObjc.swift */,
 				3BAD3B7B2202CDF300AC1DC3 /* UCMediator+ObjcExtensionObjc.swift */,
+				3BFB317E2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -575,6 +579,7 @@
 				AB6A016A21EC657200BA0DC5 /* UCSwiftModule2ViewController.swift in Sources */,
 				6003F59E195388D20070C39A /* UCAppDelegate.m in Sources */,
 				AB6A017E21EC749100BA0DC5 /* UCObjcModule2Target.m in Sources */,
+				3BFB317F2207052E003AE1E4 /* UCMediator +ObjcExtensionSwift.swift in Sources */,
 				AB6A017821EC73D200BA0DC5 /* UCMediator+UCObjcModule1.m in Sources */,
 				3BAD3B7922029A3400AC1DC3 /* UCMediator+SwiftCategoryObjc.m in Sources */,
 				AB6A016D21EC66D000BA0DC5 /* UCSwiftModuleTarget2.swift in Sources */,
@@ -611,6 +616,7 @@
 				AB6A015B21EC628900BA0DC5 /* UCMediatorSwiftCategorySwiftTest.swift in Sources */,
 				3BAD3B7222019DEF00AC1DC3 /* UCMediator+SwiftCategorySwift.m in Sources */,
 				3B98A4FA21EA0AA600144984 /* UCThirdPartUrlInvoke.m in Sources */,
+				3BFB31802207059D003AE1E4 /* UCMediator +ObjcExtensionSwift.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

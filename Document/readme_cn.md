@@ -14,8 +14,6 @@
 
 只使用Objc模块功能的话可以直接`pod 'UCRuntimeKit/UCMediatorObjc'`
 
-swift支持敬请期待!
-
 如果在cocoapods搜索不到,可以:
 
 - 1. 执行`pod repo update`
@@ -28,11 +26,26 @@ swift支持敬请期待!
 
 支持了返回值为`id`, `void`, `int`, `unsigned int`, `short`, `unsigned short`, `long`, `long long`, `float`, `char`, `unsigned char`, `NSInteger`, `BOOL`, `bool`, `CGFloat`, `NSUInteger` 的调用,并通过近百个单元测试case来验证他,中间使用了一些内联函数来优化调用,同时error的抛出也支持各种情况.
 
-### 下一步
+Objc的单元测试如下,也可以看看是如何使用的
 
-* [ ] 支持swift动态调用
-* [ ] 支持swift与Objc基本类型转换
-* [ ] 支持Objc的block与Swift闭包转换
+- Objc -> category -> Objc [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMeditorObjcTest/UCMeditorNativeTargetInvoke.m)
+- 通过第三方URL调用,以及过滤 [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMeditorObjcTest/UCThirdPartUrlInvoke.m)
+- 本地URL调用,不走过滤 [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMeditorObjcTest/UCNativeUrlInvoke.m)
+
+### 1.1
+新增了以下几种单元测试情况,同时也可以看下这几种情况是怎么去掉用的
+
+- Objc -> category -> Swift [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorObjcCategorySwiftTest.m)
+- Objc -> extension -> Objc [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorObjcExtensionObjcTest.m)
+- Objc -> extension -> Swift [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorObjcExtensionSwiftTest.m)
+- Swift -> category -> Objc [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorSwiftCategoryObjcTest.swift)
+- Swift -> category -> Swift [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorSwiftCategorySwiftTest.swift)
+- Swift -> extension -> Objc [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorSwiftExtensionObjcTest.swift)
+- Swift -> extension -> Swift [链接](https://github.com/TryRuntime/UCRuntimeKit/blob/master/Example/Tests/UCMediatorSwiftTest/UCMediatorSwiftExtensionSwiftTest.swift)
+
+除了1.0支持的返回值,新增了例如Swift的String, Dictionary, Array的返回值测试,同时测试了例如String与NSString, Array与NSArray, Dictionary与NSDictionary的互相转换.Block与Closure的转换也是支持的,但在通过Runtime调用时只能通过对象包裹一下block,推荐使用`UCMediatorArgument`.
+
+另外需要注意的是对象转变Float与Double的过程中存在着精度丢失.
 
 ## pull request
 

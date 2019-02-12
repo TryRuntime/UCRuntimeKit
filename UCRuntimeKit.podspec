@@ -20,6 +20,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/TryRuntime/UCRuntimeKit.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
   s.source_files = 'UCRuntimeKit/Classes/UCRuntimeKit.h'
+  s.swift_version = '4.2'
 
   s.subspec "UCMediatorSwift" do |ss|
   ss.source_files = "UCRuntimeKit/Classes/UCMediatorSwift/**/*.{swift}" 

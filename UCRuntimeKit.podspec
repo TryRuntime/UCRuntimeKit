@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UCRuntimeKit'
-  s.version          = '1.1.2'
+  s.version          = '1.1.3'
   s.summary          = '一个runtime架构模板'
   s.description      = <<-DESC
 一个利用runtime解耦的安全mediator

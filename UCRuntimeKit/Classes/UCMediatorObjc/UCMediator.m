@@ -272,7 +272,8 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
             *error = UCMediatorErrorWithUndefindSelctor();
         }
     }
-    UCLog(@"%@", errorStr);
+    if (errorStr) { UCLog(@"%@", errorStr);}
+    
     return errorStr.length == 0;
 }
 

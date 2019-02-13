@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface UCMediatorAppdelegateArguments : NSObject
 
-- (void)addElement:(nullable id)element;
+- (instancetype)addElement:(nullable id)element;
 - (NSArray *)getArgumentsArray;
 @end
 

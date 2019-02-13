@@ -49,17 +49,17 @@ NS_ASSUME_NONNULL_BEGIN
  根据字符串动态调用各个模块的appdelegate方法
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
-                      actionName:(nonnull NSString *)actionName
-                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
+- (nullable id)performAppDelegateTarget:(nonnull NSString *)targetName
+                             actionName:(nonnull NSString *)actionName
+                                 params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
 
 /**
  直接向这个对象动态调用appdelegate的方法
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
-                            actionName:(nonnull NSString *)actionName
-                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
+- (nullable id)performAppDelegateTargetObject:(nonnull id)targetObj
+                                   actionName:(nonnull NSString *)actionName
+                                       params:(nonnull UCMediatorAppdelegateArguments *)paramsObj;
 
 #pragma mark - 异常处理
 /**
@@ -106,19 +106,19 @@ NS_ASSUME_NONNULL_BEGIN
  根据字符串动态调用各个模块的appdelegate方法,包含了error处理
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
-                      actionName:(nonnull NSString *)actionName
-                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
-                           error:(NSError **)error;
+- (nullable id)performAppDelegateTarget:(nonnull NSString *)targetName
+                             actionName:(nonnull NSString *)actionName
+                                 params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
+                                  error:(NSError **)error;
 
 /**
  直接向这个对象动态调用appdelegate的方法,包含了error处理
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
-                            actionName:(nonnull NSString *)actionName
-                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
-                                 error:(NSError **)error;
+- (nullable id)performAppDelegateTargetObject:(nonnull id)targetObj
+                                   actionName:(nonnull NSString *)actionName
+                                       params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
+                                        error:(NSError **)error;
 @end
 
 NS_ASSUME_NONNULL_END

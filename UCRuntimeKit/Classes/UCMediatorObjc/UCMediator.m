@@ -66,9 +66,9 @@
  动态调用各个模块的appdelegate方法
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
-                      actionName:(nonnull NSString *)actionName
-                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
+- (nullable id)performAppDelegateTarget:(nonnull NSString *)targetName
+                             actionName:(nonnull NSString *)actionName
+                                 params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
     
     return [self performAppDelegateTarget:targetName actionName:actionName params:paramsObj error:nil];
 }
@@ -77,9 +77,9 @@
  直接向这个对象动态调用appdelegate的方法
  支持多参数,这里的参数只做转发不校验
  */
-- (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
-                            actionName:(nonnull NSString *)actionName
-                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
+- (nullable id)performAppDelegateTargetObject:(nonnull id)targetObj
+                                   actionName:(nonnull NSString *)actionName
+                                       params:(nonnull UCMediatorAppdelegateArguments *)paramsObj {
     
     return [self performAppDelegateTargetObject:targetObj actionName:actionName params:paramsObj error:nil];
 }
@@ -201,54 +201,51 @@
     return obj;
 }
 
-- (BOOL)performAppDelegateTarget:(nonnull NSString *)targetName
-                      actionName:(nonnull NSString *)actionName
-                          params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
-                           error:(NSError **)error {
+- (nullable id)performAppDelegateTarget:(nonnull NSString *)targetName
+                             actionName:(nonnull NSString *)actionName
+                                 params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
+                                  error:(NSError **)error {
     
     if (![actionName containsString:@"application"]) {
         UCLog(@"检查调用action,本方法仅用来派发appdelegate的各个方法");
         if (error != NULL) {
             *error = UCMediatorErrorWithAppdelegateRuntimeInvoke();
         }
-        return NO;
+        return nil;
     }
     
     Class classObj = NSClassFromString(targetName);
     SEL actionObj = NSSelectorFromString(actionName);
     if (!checkTargetAndAction(classObj, actionObj, error)) {
-        return NO;
+        return nil;
     }
     
     //正常调用
-    [self p_safePerformAction:actionObj target:[classObj new] paramsArray:paramsObj.getArgumentsArray error:nil];
-    
-    return YES;
+    return [self p_safePerformAction:actionObj target:[classObj new] paramsArray:paramsObj.getArgumentsArray error:nil];
 }
 
-- (BOOL)performAppDelegateTargetObject:(nonnull id)targetObj
-                            actionName:(nonnull NSString *)actionName
-                                params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
-                                 error:(NSError **)error {
+- (nullable id)performAppDelegateTargetObject:(nonnull id)targetObj
+                                   actionName:(nonnull NSString *)actionName
+                                       params:(nonnull UCMediatorAppdelegateArguments *)paramsObj
+                                        error:(NSError **)error {
     
     if (![actionName containsString:@"application"]) {
         UCLog(@"检查调用action,本方法仅用来派发appdelegate的各个方法");
         if (error != NULL) {
             *error = UCMediatorErrorWithAppdelegateRuntimeInvoke();
         }
-        return NO;
+        return nil;
     }
     
     Class classObj = [targetObj class];
     SEL actionObj = NSSelectorFromString(actionName);
     if (!checkTargetAndAction(classObj, actionObj, error)) {
-        return NO;
+        return nil;
     }
     
     //正常调用
-    [self p_safePerformAction:actionObj target:targetObj paramsArray:paramsObj.getArgumentsArray error:nil];
+    return [self p_safePerformAction:actionObj target:targetObj paramsArray:paramsObj.getArgumentsArray error:nil];
     
-    return YES;
 }
 #pragma mark - private
 
@@ -272,7 +269,8 @@ static inline BOOL checkTargetAndAction(Class target, SEL action, NSError **erro
             *error = UCMediatorErrorWithUndefindSelctor();
         }
     }
-    UCLog(@"%@", errorStr);
+    if (errorStr) { UCLog(@"%@", errorStr);}
+    
     return errorStr.length == 0;
 }
 

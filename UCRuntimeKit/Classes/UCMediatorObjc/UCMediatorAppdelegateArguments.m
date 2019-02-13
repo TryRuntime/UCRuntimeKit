@@ -12,13 +12,14 @@
 @end
 @implementation UCMediatorAppdelegateArguments
 
-- (void)addElement:(nullable id)element {
+- (instancetype)addElement:(nullable id)element {
     
     if (element) {
         [self.mArray addObject:element];
     } else {
         [self.mArray addObject:[NSNull null]];
     }
+    return self;
 }
 - (NSArray *)getArgumentsArray {
     return [self.mArray copy];

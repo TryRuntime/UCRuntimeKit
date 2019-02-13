@@ -6,7 +6,9 @@
 //
 
 #ifdef DEBUG
-#define UCLog(...) NSLog(__VA_ARGS__)
+#define UCLog(...) NSLog(__VA_ARGS__);\
+NSLog(@"file===%@, line===%d",[[NSString stringWithUTF8String:__FILE__] lastPathComponent], __LINE__)
 #else
 #define UCLog(...)
 #endif
+
